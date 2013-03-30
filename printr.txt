@@ -1,0 +1,19 @@
+Array
+(
+    [name] => bilebadahen
+    [email] => asd@gmail.ru
+    [website] => 
+    [body] => spadfbsdfl bldfln mlsfgmnl mflgnm blog lfmnl mlfdg lmflgn fg n 
+http://sc.blogs.com
+    [created] => now
+    [ident] => 5
+    [itemid] => 0
+    [id] => 26
+    [moderated] => 1
+    [customfields] => 
+    [linkmod] => 
+    [linkart] => http://giftjaipur.com/index.php?option=com_fst&amp;view=test&amp;prodid=0
+    [title] => A Testimonial
+    [article_type] => Product
+    [article] => 
+)

@@ -1,0 +1,67 @@
+<html>
+<head><title>homepage</title></head><body>
+<table width="368" border="0" cellspacing="0" cellpadding="2" align="center" height="100">
+        <tr valign="middle"> 
+          <td bgcolor="#6698FF" width="120" height="20"> 
+            <div align="center"><font color="#FFFFFF"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2">DowJones Industrial Average</font></b></font> </div>
+          </td>
+          <td width="4" height="20"></td>
+          <td bgcolor="#347C2C" width="120" height="20"> 
+            <div align="center"><font color="#FFFFFF"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2">NASDAQ</font></b></font></div>
+          </td>
+          <td width="4" height="20"></td>
+          <td bgcolor="#C89800" width="120" height="20"> 
+            <div align="center"><font color="#FFFFFF"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2">S&P500</font></b></font> </div>
+          </td>
+        </tr>
+        <tr valign="top"> 
+          <td bgcolor="#000066" width="120"> 
+            <table width="50%" border="0" cellspacing="0" cellpadding="3" height="80">
+              <tr bgcolor="#FFFFFF" valign="top"> 
+                <td> 
+                  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><script src="http://charts.wikinvest.com/wikinvest/wikichart/javascript/scripts.php" type="text/javascript"></script><div id="wikichartContainer_8FA38ACC-C354-00EC-5D6F-B9644C1E3D2A"><div style="width: 200px; text-align: center; vertical-align: center; margin-top: 22px;"><a href="http://get.adobe.com/flashplayer/"><img src="http://cdn.wikinvest.com/wikinvest/images/adobe_flash_logo.gif" alt="Flash" style="border-width: 0px;"/><br/>Flash Player 9 or higher is required to view the chart<br/><strong>Click here to download Flash Player now</strong></a></div></div><script type="text/javascript">if (typeof(embedWikichart) != "undefined") {embedWikichart("http://charts.wikinvest.com/WikiChartMini.swf","wikichartContainer_8FA38ACC-C354-00EC-5D6F-B9644C1E3D2A","300","245",{"liveQuote":"true","ticker":"DJI","embedCodeDate":"2010-10-17","showAnnotations":"true","rollingDate":"1 day"},{});}</script>
+                    </font></p>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td width="4"></td>
+          <td bgcolor="#990000" width="120"> 
+            <table width="50%" border="0" cellspacing="0" cellpadding="3" height="80">
+              <tr bgcolor="#FFFFFF" valign="top"> 
+                <td> 
+                  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><script src="http://charts.wikinvest.com/wikinvest/wikichart/javascript/scripts.php" type="text/javascript"></script><div id="wikichartContainer_A417C333-5ECD-09EF-981D-B96A703AFE57"><div style="width: 200px; text-align: center; vertical-align: center; margin-top: 22px;"><a href="http://get.adobe.com/flashplayer/"><img src="http://cdn.wikinvest.com/wikinvest/images/adobe_flash_logo.gif" alt="Flash" style="border-width: 0px;"/><br/>Flash Player 9 or higher is required to view the chart<br/><strong>Click here to download Flash Player now</strong></a></div></div><script type="text/javascript">if (typeof(embedWikichart) != "undefined") {embedWikichart("http://charts.wikinvest.com/WikiChartMini.swf","wikichartContainer_A417C333-5ECD-09EF-981D-B96A703AFE57","300","245",{"liveQuote":"true","ticker":"IXIC","embedCodeDate":"2010-10-17","showAnnotations":"true","rollingDate":"1 day"},{});}</script>
+                 
+                    </font></p>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td width="4"></td>
+          <td bgcolor="#C89800" width="120"> 
+            <table width="50%" border="0" cellspacing="0" cellpadding="3" height="80">
+              <tr bgcolor="#FFFFFF" valign="top"> 
+                <td> 
+                  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><script src="http://charts.wikinvest.com/wikinvest/wikichart/javascript/scripts.php" type="text/javascript"></script><div id="wikichartContainer_22067D86-60EC-2EF9-2FCD-B96B0630DBA5"><div style="width: 200px; text-align: center; vertical-align: center; margin-top: 22px;"><a href="http://get.adobe.com/flashplayer/"><img src="http://cdn.wikinvest.com/wikinvest/images/adobe_flash_logo.gif" alt="Flash" style="border-width: 0px;"/><br/>Flash Player 9 or higher is required to view the chart<br/><strong>Click here to download Flash Player now</strong></a></div></div><script type="text/javascript">if (typeof(embedWikichart) != "undefined") {embedWikichart("http://charts.wikinvest.com/WikiChartMini.swf","wikichartContainer_22067D86-60EC-2EF9-2FCD-B96B0630DBA5","300","245",{"liveQuote":"true","ticker":"SPX","embedCodeDate":"2010-10-17","showAnnotations":"true","rollingDate":"1 day"},{});}</script>
+                   </font></p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+<tr valign="middle"> 
+          <td bgcolor="#6698FF" width="120" height="20"> 
+            <div align="center"><a href="dji.html"><font color="#FFFFFF"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Click here for more details</a></font></b></font></a></div>
+          </td>
+          <td width="4" height="20"></td>
+          <td bgcolor="#347C2C" width="120" height="20"> 
+            <div align="center"><a href="ixic.html"><font color="#FFFFFF"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Click here for more details</font></b></font></a></div>
+          </td>
+          <td width="4" height="20"></td>
+          <td bgcolor="#C89800" width="120" height="20"> 
+            <div align="center"><a href="s&p500.html"><font color="#FFFFFF"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Click here for more details</font></b></font></a> </div>
+          </td>
+        </tr>
+      </table>
+</body>
+</html>

@@ -1,0 +1,2 @@
+<?php die("Access Denied"); ?>
+<?xml version="1.0" encoding="utf-8"?><!-- generator="Joomla! 1.5 - Open Source Content Management" --><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home</title><description></description><link>http://giftjaipur.com/component/content/frontpage</link><lastBuildDate>Wed, 05 Sep 2012 23:13:12 +0000</lastBuildDate><generator>Joomla! 1.5 - Open Source Content Management</generator><language>en-gb</language></channel></rss>

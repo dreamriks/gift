@@ -1,0 +1,4 @@
+<?php die("Access Denied"); ?>
+a:2:{s:6:"output";s:0:"";s:6:"result";s:672:"		<div class="moduletable">
+					<table width="100%" border="0" cellpadding="0" cellspacing="1"><tr><td nowrap="nowrap"><a href="/about-us" class="mainlevel" >About Us</a><span class="mainlevel"> * </span><a href="/Contact-Us" class="mainlevel" >Contact Us</a><span class="mainlevel"> * </span><a href="/Terms-of-Use" class="mainlevel" >Terms of Use</a><span class="mainlevel"> * </span><a href="/Refund-Policy" class="mainlevel" >Refund Policy</a><span class="mainlevel"> * </span><a href="/Delivery-Policy" class="mainlevel" >Delivery Policy</a><span class="mainlevel"> * </span><a href="/Privacy-Policy" class="mainlevel" >Privacy Policy</a></td></tr></table>		</div>
+	";}

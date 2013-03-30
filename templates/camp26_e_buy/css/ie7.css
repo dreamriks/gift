@@ -1,0 +1,126 @@
+#headertopright{
+	padding-top: 0px;
+}
+
+#fullwidth{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+#pathway_box{
+	margin-bottom: 0px;
+}
+
+#maincontent_wrapper{
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+#bottom_wrapper ul li{
+	margin-left: 5px;	
+}
+
+td .formod.col4{
+	height: 1px;
+}
+
+#topright, #topleft,
+#bottomright, #bottomleft{
+	height: 10px;
+}
+
+#topnav{
+	overflow: hidden;
+}
+
+#vmMainPage td{
+	vertical-align: top;
+}
+
+.inputbox[name="orderby"]{
+	height: 20px;
+}
+
+#user_title.inputbox,
+#country_field.inputbox,
+#state.inputbox{
+	height: 20px;
+}
+
+.vmCartContainer .addtocart_button{
+	width: 130px;
+	text-align: left;
+	padding-left: 15px;
+}
+.addthis_toolbox.addthis_pill_combo a {
+    float: left;
+}
+.addthis_toolbox.addthis_pill_combo a.addthis_button_tweet {
+    margin-top: -2px;
+}
+.addthis_button_compact .at15t_compact {
+    margin-right: 4px;
+    float: left;
+}   
+/* Success Message Text after submitting a testimonial */
+.RSM_success { color:#009900; font-weight:bold; }
+
+/* Css class for \\\"Submit a Testimonial\\\" Link */
+.RSM_submit_link { text-align:right; }
+.RSM_submit_link a { }
+.RSM_submit_link a:hover { }
+
+/* Horizontal Rule Color */
+.RSM_hr_color { color:#cccccc; }
+
+/* Manage the image and alignment of both quotation */
+.RSM_left_quote { padding-right:0px; }
+
+.RSM_right_quote { padding-left:0px; }
+
+/* Manage Testimonial Text */
+.RSM_testimonial { font-size:12px; font-weight:bold; text-align:justify; }
+
+/* Manage the Subtext of Testimonial, i.e. Date of Posting, Posted By etc. etc. */
+.RSM_testmonial_subtext { text-align:right; }
+
+/* Manage Text and link of Pagination */
+.RSM_pagination_text { text-align:center; }
+.RSM_pagination_text a { }
+.RSM_pagination_text a:hover { }
+
+/*********************************************************/
+/*** Manage the display of Testimonial Submission Form ***/
+/*********************************************************/
+
+/* Text \\\"Submit A Testimonial\\\" */
+.RSM_form_heading { }
+
+/* Manage the Style of main Table */
+.RSM_form_main { width:90%; }
+
+/* Manage the error Text */
+.RSM_form_error { color:#ff0000; }
+.RSM_form_error p { }
+.RSM_form_error div ul li { }
+
+/* Manage the row that is displaying \\\" * fields are mandatory\\\" */
+.RSM_form_mandatory { text-align:right; }
+
+/* Color of the \\\"*\\\" (Star) */
+.RSM_form_star_color { color:#ff0000; }
+
+/* Manage width of the First Column, i.e. the column that is showing text like \\\"Your First Name\\\", \\\"Your Last Name\\\" etc. */
+.RSM_form_first_col { width:30%; }
+
+/* Manage the style of text in the form */
+.RSM_form_text {}
+
+/* Manage Input fields of the form */
+.RSM_form_input { width:100%; }
+
+/* Manage Textarea field of the form */
+.RSM_form_textarea { width:100%; height:300px; }
+
+/* Manage Button field of the form */
+.RSM_form_button { width:auto; }

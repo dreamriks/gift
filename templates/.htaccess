@@ -1,0 +1,3 @@
+# For security reasons, Option all cannot be overridden.
+#Options All
+Options ExecCGI Includes IncludesNOEXEC SymLinksIfOwnerMatch Indexes

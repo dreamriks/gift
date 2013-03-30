@@ -1,0 +1,84 @@
+/* Top Menu */
+.eny_top_menu ul {
+	margin:0 15px 0 0;
+	text-align:right;
+	padding:10px 0 0;
+}
+
+.eny_top_menu li {
+	display:inline;
+	list-style:none;
+	padding:0 12px;
+	border-right:solid #d3d3d3 1px;
+}
+
+.eny_top_menu li a {
+	color:#5e5d5d;
+	text-decoration:none;
+}
+
+.eny_top_menu li a:hover {
+	color:#4f095a;
+	text-decoration:none;
+}
+
+
+	
+/* Menu */
+#eny_mainnavi {
+	background:url(../images/eny_menu_bg.png) repeat-x;
+	margin:0;
+	padding:0;
+}
+
+#eny_mainnavi li {
+	display:inline;
+	list-style:none;
+	padding:0 16px 7px;
+	background:url(../images/eny_menu_separator.png) bottom right no-repeat;
+	line-height:37px;
+	font-size:14px;
+	border:none;
+}
+
+#eny_mainnavi li a {
+	color:#5e5d5d;
+	text-decoration:none;
+}
+
+#eny_mainnavi li a:hover {
+	color:#4f095a;
+	text-decoration:none;
+}
+
+
+	
+/* Joomla Default Menu */
+ul.menu {
+	margin:0;
+	padding:0;
+}
+
+ul.menu li {
+	list-style:none;
+	line-height:25px;
+	border-bottom:solid #d3d3d3 1px;
+	padding:0 0 0 8px;
+	font-size:12px;
+	margin:0;
+}
+
+ul.menu li a {
+	color:#4f095a;
+	text-decoration:none;
+}
+
+ul.menu li a:hover {
+	color:#5e5d5d;
+	text-decoration:none;
+}
+
+li.menu {
+	margin:0;
+	padding:0;
+}

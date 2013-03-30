@@ -1,0 +1,281 @@
+#active_menu{
+}
+
+#blockrandom{
+}
+
+#contact_email_copy{
+}
+
+#contact_text{
+	height: 150px;
+}
+
+#emailForm{
+}
+
+#mod_login_password{
+}
+
+#mod_login_remember{
+}
+
+#mod_login_username{
+}
+
+#poll{
+}
+
+#search_ordering{
+}
+
+#search_searchword{
+}
+
+#searchphraseall{
+}
+
+#searchphraseany{
+}
+
+#searchphraseexact{
+}
+
+/*#voteid1,#voteid2*/
+#voteid1,#voteid2{
+}
+
+.adminform{
+}
+
+.article_seperator{
+	display:block;
+	border-bottom:1px solid #ddd;
+	margin-bottom:10px;
+}
+
+.back_button{
+}
+
+.blog{
+	margin-bottom: 10px;
+}
+
+.blog_more{
+}
+
+.blogsection{
+}
+
+.button{
+	vertical-align: top;
+	background:#5757C5 none repeat scroll 0%;
+	border:medium none;
+	color:#FFFFFF;
+	font-family:verdana,arial,tahoma,sans-serif;
+	font-size:11px;
+	height:20px;
+}
+
+.buttonheading{
+}
+
+.category{
+}
+
+.clr{
+}
+
+.componentheading{
+	border-bottom:1px solid #999;
+	color: #fff000;
+	font-size: 10px;
+	background: #5757C5;
+	padding: 0 5px;
+}
+
+.contact_email{
+}
+
+.content_rating{
+}
+
+.content_vote{
+}
+
+.contentdescription{
+}
+
+.contentheading{
+	color:#000066;
+	font-size:25px;
+	font-weight:bold;
+	font-family: "trebuchet ms", verdana, tahoma, arial;
+	line-height: 30px;
+}
+
+.contentpagetitle{
+}
+
+.contentpane{
+}
+
+.contentpaneopen{
+}
+
+.contentpaneopen img{
+	padding: 5px;
+}
+
+.contenttoc{
+}
+
+.createdate{
+	font-size:9px;
+	color:#999;
+}
+
+.fase4rdf{
+}
+
+.footer{
+}
+
+.frontpageheader{
+}
+
+.inputbox{
+	border: 1px solid #5757C5;	
+	margin-right: 5px;
+	height: 15px;
+}
+
+.latestnews{
+}
+
+.mainlevel{
+}
+
+.message{
+}
+
+.modifydate{
+}
+
+.module{
+}
+
+.moduletable {
+	border:1px solid #CCCCCC;
+	padding:5px;
+	margin-bottom: 10px;
+}
+
+.moduletable-nobox{
+	border: none;
+	margin-bottom: 10px;
+}
+
+.mostread{
+}
+
+.newsfeed{
+}
+
+.newsfeeddate{
+}
+
+.newsfeedheading{
+}
+
+.pagenav{
+}
+
+.pagenav_next{
+}
+
+.pagenav_prev a{
+	font-size: 10px;
+}
+
+.pagenavbar{
+}
+
+.pagenavcounter{
+}
+
+.pathway{
+}
+
+.polls{
+}
+
+.pollsborder{
+}
+
+.pollstableborder{
+}
+
+.readon{
+	font-size: 10px;
+}
+
+.search{
+}
+
+.searchintro{
+}
+
+.sectionentry1{
+}
+
+.sectionentry2{
+}
+
+.sectionheader{
+}
+
+.sitetitle{
+}
+
+.small{
+	font-size:9px;
+	color: #cc0000;
+}
+
+.smalldark{
+}
+
+.sublevel{
+}
+
+.syndicate{
+}
+
+.syndicate_text{
+}
+
+.text_area{
+}
+
+.toclink{
+}
+
+.weblinks{
+}
+
+.wrapper{
+}
+
+.sectiontableheader{
+	background: #b8b8e9;
+	padding-right: 5px;
+}
+
+.sectiontableentry1{
+	background: #f8ede4;
+}
+
+.pagination li{
+	background: none;
+}

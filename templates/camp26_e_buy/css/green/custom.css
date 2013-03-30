@@ -1,0 +1,373 @@
+span#letmein a:link, span#letmein a:visited{
+	background: transparent url(../../images/green/arrow_left_yellow.gif) no-repeat left;
+	color: #fff000;
+	padding-left: 12px;
+	margin-left: 50px;
+	font-family: "trebuche ms", verdana, arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+span#letmein a:hover{
+	text-decoration: underline;
+}
+
+span#currentdate{
+	font-family: verdana, arial, tahoma;
+	font-size: 9px;
+	color: #999;
+}
+
+ul#mainlevel-nav{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.8em;
+}
+
+ul#mainlevel-nav li{
+	background-image: none;
+	padding-left: 0px;
+	padding-right: 0px;
+	float: left;
+	margin: 0;
+	font-size: 11px;
+	line-height: 21px;
+	white-space: nowrap;
+	border-right: 1px solid #cccccc;
+}
+
+ul#mainlevel-nav li a{
+	display: block;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-decoration: none;
+	color: #333333;
+	background: transparent;
+}
+
+#topnav>ul#mainlevel-nav li a { width: auto; }
+
+ul#mainlevel-nav li a:hover{
+	color: #fff;
+	background: #c64934;
+}
+
+
+.news_style{
+	display:none;
+}
+
+.news_show{
+	position:absolute;
+	color: white;
+	clip:rect(0px 443px 192px 0px);
+}
+
+.news_border{
+	width:443px;
+	height:195px;
+	padding: 4px 0px;
+}
+
+.mark{
+	font-size: 10px;
+	color: white;
+	text-align:center;	
+}
+
+/*.news_title{
+	font: bold 10px Verdana, Arial, Tahoma, Sans-Serif;
+	padding: 5px 0px 9px 5px;
+	color: #000;
+	
+	background: #184702;
+}*/
+
+.news_show img{
+	margin-left: 4px;
+	margin-right: 0px;
+}
+
+.buttondiv{
+	padding: 0px 0px 0px 0px;
+	border-top:none;
+	height:20px;
+	float: right;
+	right: 520px;
+}
+
+.news_move{
+	position: relative;
+}
+
+.mytable{
+	width:430px;
+	height:150px;
+	vertical-align: top; 
+}
+
+#camptabs .ui-tabs-panel{
+/*	padding: 0px;
+	border: 0px solid #2A8200;*/
+	overflow: hidden;
+	width: auto;
+}
+
+#camptabs table td  a{
+	font-size: 10px;
+	color: #DFBD03;
+	text-decoration: none;
+}
+
+#camptabs table td{
+	vertical-align: top;
+}
+
+#camptabs ul.ui-tabs-nav{
+	padding-left: 10px;
+}
+
+#camptabs ul.ui-tabs-nav li{
+}
+
+#camptabs ul.ui-tabs-nav li{
+	color: #fff;
+}
+
+#camptabs ul.ui-tabs-nav li.ui-tabs-selected{
+	color: #000;
+}
+
+#camptabs .ui-tabs-nav a span {
+	padding-top: 0;
+}
+
+#vmMainPage div.buttons_heading img{
+	padding: 0 5px;
+}
+
+#vmMainPage div.buttons_heading{
+	margin: 0px;
+	width: 100%;
+	text-align: right;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #ccc;
+}
+
+#vmMainPage ul.pagination li {
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+
+#vmMainPage h3{
+	border-bottom: 1px solid #999;
+	/*margin-bottom:10px;*/
+	height: 35px;
+	padding-bottom:5px;
+}
+
+#vmMainPage h2 a{
+	color: #000066;
+	font-family: arial, "trebuchet ms", verdana,  tahoma, sans-serif;
+	font-size: 25px;
+}
+
+#vmMainPage div table{
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+#vmMainPage a.button{
+		background: none;
+}
+
+#vmMainPage div a:hover{
+	color: #cc0000;
+}
+
+form[name="order"]{
+	background: #7ECF53 ;
+	padding: 2px;
+}
+
+.formod h3{
+	color: #333;
+}
+
+#footer{
+	color: #333;
+}
+#footer a:link, #footer a:visited{
+	color: #ffffff;
+}
+
+#mc_left #mainlevel li img{
+	float: right;
+	margin-top: 5px;
+}
+
+#mc_left #mainlevel li{
+	height: 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+#mc_left #mainlevel li a{
+	float: left;
+}
+
+.vmCartModule{
+	text-align: center;
+}
+
+.forminput{
+	margin-top: 10px;
+}
+
+.forminput input.inputbox{
+	width: 300px;
+	border: 1px solid #2A8200;
+}
+
+.forminput .button{
+	background:	#2A8200;
+	border:	none;
+	color: #FFFFFF;
+	font-family: verdana, arial, tahoma, sans-serif;
+	font-size: 11px;
+	height: 20px;
+}
+
+.username_wrap, .password_wrap, .button_wrap{
+	float: left;
+}
+
+.account{
+	clear: both;
+}
+
+.account li{
+	float: left;
+	margin: 0 2px 0 0;
+}
+
+.account li, .account li a{
+	font-family: arial, verdana, tahoma, sans-serif;
+	font-size: 11px;
+}
+
+form#login .inputbox{
+	border: 1px solid #2A8200;	
+	margin-right: 5px;
+	height: 15px;
+}
+
+.inputbox[name="product_currency"]{
+	height: 20px;
+}
+
+.button[value="Change Currency"]{
+	height:22px;
+	vertical-align: middle;
+}
+
+.button_wrap .button{
+	background:	#2A8200;
+	border:	none;
+	color: #FFFFFF;
+	font-family: verdana, arial, tahoma, sans-serif;
+	font-size: 11px;
+	height: 20px;
+}
+
+form#login ul{
+	margin-right: 5px;
+}
+
+form#login ul li{	
+	margin: 0 5px 0 0;
+	float: left;
+}
+
+.btn_logout_wrap {
+	float: left;
+}
+
+.btn_logout_wrap .button{
+	background:	#2A8200;
+	border:	none;
+	color: #FFFFFF;
+	font-family: verdana, arial, tahoma, sans-serif;
+	font-size: 11px;
+	height: 20px;
+}
+
+#product_list div{
+	border: 1px solid #C89C66;
+	margin-top: 5px;
+}
+
+
+#product_list div div, #product_list div div div{
+	border: none;
+}
+
+#mainbody li{
+	margin:0 0 0 5px;
+	padding-left: 15px;
+	background: url(../../images/green/bullet_white.gif) no-repeat left;
+}
+
+#vmMainPage .vmCartContainer {
+	background:#7ECF53 ;
+	border:1px solid #ccc;
+}
+
+#vmMainPage table tr td .button{
+	background: none;
+}
+
+.vmCartContainer .addtocart_button {
+	background: transparent url(../../images/green/add_to_cart.png) no-repeat right 60%;
+	color: #fff;
+}
+
+.addtocart_button {
+	background: transparent url(../../images/green/add_to_cart.png) no-repeat right 60%;
+	color: #fff;
+}
+
+#addtocart .addtocart_button_module {
+	background: transparent url(../../images/green/add_to_cart.png) no-repeat 70% 60%;
+	color: #fff;
+	border: none;
+	height:	25px;
+	width: 140px;
+}
+
+#camptabs .addtocart_button_module {
+	width: 150px;
+}
+
+form[name="adminForm"] fieldset .inputbox{
+	margin-left: 20px;
+}
+
+#country_field.inputbox{
+	width: 270px;
+}
+
+#state.inputbox{
+	margin-left: 80px;
+}
+
+a.next_page{
+	float: right;
+}
+
+a.previous_page{
+	float: left;
+}

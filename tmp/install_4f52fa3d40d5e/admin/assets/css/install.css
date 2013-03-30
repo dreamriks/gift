@@ -1,0 +1,100 @@
+#installcsvi {
+	width: 850px;
+}
+
+#versions {
+	display: block;
+	float: left;
+	border: 0px solid #CCCCCC;
+	width: 300px;
+}
+
+#rightbox {
+	float:right;
+	margin-top:13px;
+	width: 520px;
+	height: 300px;
+	background-image: url(images/grad_line_separator.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	position:relative;
+}
+
+#options {
+	position:absolute;
+	top: 0px;
+	left: 1px;
+	padding-left: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-image: url(images/options_bg.png);
+	background-repeat: repeat-y;
+	background-position: left top;
+	width: 450px;
+}
+
+#progress {
+	display: block;
+	position:absolute;
+	top: 40px;
+	left: 1px;
+	width: 600px;
+	height: 250px;
+	padding: 5px;
+	background-image: url(images/progress_bg.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+	overflow-y:auto;
+	overflow-x:hidden;
+
+}
+
+#oldversionbox {
+	height: 54px;
+	width: 274px;
+	font-size: 20px;
+	color: #ea5402;
+	padding-top: 33px;
+	margin: 1px;
+	text-align: center;
+	display: block;
+	background-image: url(images/old_version_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+
+#newversionbox {
+	height: 54px;
+	width: 274px;
+	font-size: 20px;
+	color: #126592;
+	padding-top: 33px;
+	margin: 1px;
+	text-align:center;
+	display:block;
+	background-image: url(images/new_version_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#update {
+	font-weight: bold;
+	
+}
+
+#updatedesc {
+	padding-bottom: 7px;
+}
+
+#install {
+	font-weight: bold;
+}
+
+#finished {
+	display: block;
+	font-size: 18px;
+	color: #126592;
+	padding-top: 3px;
+	margin: 5px;
+}

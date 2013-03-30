@@ -1,0 +1,225 @@
+/* General */
+body#pagearea {
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+#wrapper {
+	width:1000px;
+	margin:0 auto;
+}
+
+#wrapper_content {
+	width:978px;
+	margin:0 auto;
+}
+
+.clear {
+	clear:both;
+}
+
+
+	
+/* Top Menu */
+.eny_top_menu {
+}
+
+
+	
+/* Header */
+.eny_header {
+	width:100%;
+	margin:0;
+}
+
+
+	
+/* Logo */
+#eny_logo {
+	width:469px;
+	float:left;
+	padding:20px 10px;
+}
+
+#eny_logo-onlylogo {
+	width:958px;
+	float:left;
+	padding:0 10px;
+}
+
+
+	
+/* Banner */
+#eny_banner {
+	width:469px;
+	float:right;
+	padding:20px 10px;
+}
+
+#eny_banner-onlybanner {
+	width:469px;
+	float:right;
+	padding:0 10px;
+}
+
+
+	
+/* Menu */
+#eny_mainnavi {
+}
+
+
+	
+/* User 1-4 */
+.eny_useronetofour_area {
+}
+
+.eny_useronetofour {
+	float:left;
+}
+
+
+	
+/* User 5-8 */
+.eny_userfivetoeight_area {
+}
+
+.eny_userfivetoeight {
+	float:left;
+}
+
+
+	
+/* Breadcrumb */
+.eny_breadcrumb {
+	width:100%;
+	height:30px;
+}
+
+.eny_breadcrumb_left {
+	width:45px;
+	float:left;
+}
+
+.eny_breadcrumb_middle {
+	width:920px;
+	float:right;
+}
+
+
+	
+/* Main Area */
+#eny_left-rightcount {
+	width:0;
+	float:left;
+}
+
+#eny_left-leftcount {
+	width:199px;
+	float:left;
+	border-right:solid #d3d3d3 1px;
+}
+
+#eny_left-rightandleftcount {
+	width:199px;
+	float:left;
+	border-right:solid #d3d3d3 1px;
+}
+
+#eny_left-onlymaincontent {
+	width:0;
+	float:left;
+}
+
+#eny_right-rightcount {
+	width:199px;
+	float:left;
+	border-left:solid #d3d3d3 1px;
+}
+
+#eny_right-leftcount {
+	width:0;
+	float:left;
+}
+
+#eny_right-rightandleftcount {
+	width:199px;
+	float:left;
+	border-left:solid #d3d3d3 1px;
+}
+
+#eny_right-onlymaincontent {
+	width:0;
+	float:left;
+}
+
+#eny_main-rightcount {
+	width:762px;
+	float:left;
+	padding:8px;
+	border-top:solid #d3d3d3 1px;
+}
+
+#eny_main-leftcount {
+	width:762px;
+	float:left;
+	padding:8px;
+	border-top:solid #d3d3d3 1px;
+}
+
+#eny_main-rightandleftcount {
+	width:562px;
+	float:left;
+	border-top:solid #d3d3d3 1px;
+	padding:8px;
+}
+
+#eny_main-onlymaincontent {
+	width:962px;
+	float:left;
+	border-top:solid #d3d3d3 1px;
+	padding:8px;
+}
+
+
+	
+/* User 9-12 */
+.eny_userninetotwelve_area {
+	width:100%;
+	float:left;
+}
+
+.eny_userninetotwelve {
+	float:left;
+}
+
+
+	
+/* User 13-16 */
+.eny_thirthteentosixteen_area {
+	width:100%;
+}
+
+.eny_thirthteentosixteen {
+	float:left;
+}
+
+
+	
+/* Footer & Copyright Area */
+.eny_footer_area {
+	width:100%;
+}
+
+.eny_copyright {
+	float:left;
+	width:180px;
+	padding:0 10px;
+}
+
+.eny_footer {
+	float:right;
+	width:758px;
+	padding:0 10px;
+}

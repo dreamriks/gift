@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+    <name>camp26_e_buy</name>
+    <creationDate>07 August 2008</creationDate>
+	<author>Camp26 Team</author>
+	<copyright>Camp26.Com Commercial Template - Just For Camp26.Com Members Club</copyright>
+    <authorEmail>camp26team@gmail.com</authorEmail>
+    <authorUrl>http://www.camp26.com</authorUrl>
+	<version>1.0</version>
+    <description>
+	<![CDATA[<img src="../templates/camp26_e_buy/template_thumbnail.png" align="left" hspace="10" />
+	<strong>E-BUY (Camp26 E-Buy Template)</strong> is special e-commerce type template for <a href="http://www.camp26.com" target="_blank">Camp26.Com</a> Members Club.
+	]]>    	
+	</description>
+    <files>
+		<filename>adsbanner_config.php</filename>
+		<filename>css/blue/index.html</filename>
+		<filename>css/green/index.html</filename>
+		<filename>css/index.html</filename>
+		<filename>css/original/index.html</filename>
+		<filename>css/pink/index.html</filename>
+		<filename>css/silver/index.html</filename>
+		<filename>footer.php</filename>
+		<filename>images/adsbanner/index.html</filename>
+		<filename>images/blue/index.html</filename>
+		<filename>images/green/index.html</filename>
+		<filename>images/index.html</filename>
+		<filename>images/original/index.html</filename>
+		<filename>images/pink/index.html</filename>
+		<filename>images/silver/index.html</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>js/ie.js</filename>
+		<filename>js/index.html</filename>
+		<filename>js/jquery-1.2.3.pack.js</filename>
+		<filename>js/jquery.film.js</filename>
+		<filename>js/menu.js</filename>
+		<filename>js/qTip.js</filename>
+		<filename>js/styleswitch.js</filename>
+		<filename>js/styleswitch_jquery.js</filename>
+		<filename>js/ui.tabs.ext.pack.js</filename>
+		<filename>js/ui.tabs.pack.js</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>favicon.ico</filename>
+		<filename>params.ini</filename>
+		<filename>component.php</filename>
+		<filename>html/modules.php</filename>
+		<filename>html/pagination.php</filename>
+		<filename>html/index.html</filename>
+	</files>
+	<images>
+		<filename>images/adsbanner/1.png</filename>
+		<filename>images/adsbanner/blank.gif</filename>
+		<filename>images/adsbanner/trans_item.png</filename>
+		<filename>images/blue/add-to-cart_brown.gif</filename>
+		<filename>images/blue/add_to_cart.png</filename>
+		<filename>images/blue/arrow_left_yellow.gif</filename>
+		<filename>images/blue/body_grad.jpg</filename>
+		<filename>images/blue/bullet_formod.gif</filename>
+		<filename>images/blue/bullet_formod_dark.gif</filename>
+		<filename>images/blue/bullet_white.gif</filename>
+		<filename>images/blue/formod_bl.gif</filename>
+		<filename>images/blue/formod_br.gif</filename>
+		<filename>images/blue/formod_tl.gif</filename>
+		<filename>images/blue/formod_tr.gif</filename>
+		<filename>images/blue/frame_left.jpg</filename>
+		<filename>images/blue/frame_right.jpg</filename>
+		<filename>images/blue/frame_shad.jpg</filename>
+		<filename>images/blue/logo_left.gif</filename>
+		<filename>images/blue/logo_right.gif</filename>
+		<filename>images/blue/menu_active1.gif</filename>
+		<filename>images/blue/menu_active1.jpg</filename>
+		<filename>images/blue/next.png</filename>
+		<filename>images/blue/next0.png</filename>
+		<filename>images/blue/pause.png</filename>
+		<filename>images/blue/pause0.png</filename>
+		<filename>images/blue/payment.jpg</filename>
+		<filename>images/blue/prev.png</filename>
+		<filename>images/blue/prev0.png</filename>
+		<filename>images/blue/shopping-cart.jpg</filename>
+		<filename>images/blue/stop.png</filename>
+		<filename>images/blue/submenu_active.gif</filename>
+		<filename>images/blue/tabs.png</filename>
+		<filename>images/blue/tabs_bl.gif</filename>
+		<filename>images/blue/tabs_br.gif</filename>
+		<filename>images/blue/tabs_title_l.gif</filename>
+		<filename>images/blue/tabs_title_off_l.gif</filename>
+		<filename>images/blue/tabs_title_off_r.gif</filename>
+		<filename>images/blue/tabs_title_r.gif</filename>
+		<filename>images/blue/tabs_tr.gif</filename>
+		<filename>images/blue/topnav_bg.gif</filename>
+		<filename>images/camp26hover.jpg</filename>
+		<filename>images/camp26top.jpg</filename>
+		<filename>images/green/add-to-cart_brown.gif</filename>
+		<filename>images/green/add_to_cart.jpg</filename>
+		<filename>images/green/add_to_cart.png</filename>
+		<filename>images/green/arrow_left.png</filename>
+		<filename>images/green/arrow_left_yellow.gif</filename>
+		<filename>images/green/arrow_right.png</filename>
+		<filename>images/green/body_grad.jpg</filename>
+		<filename>images/green/bullet_formod.gif</filename>
+		<filename>images/green/bullet_formod_dark.gif</filename>
+		<filename>images/green/bullet_white.gif</filename>
+		<filename>images/green/formod_bl.gif</filename>
+		<filename>images/green/formod_br.gif</filename>
+		<filename>images/green/formod_tl.gif</filename>
+		<filename>images/green/formod_tr.gif</filename>
+		<filename>images/green/frame_left.jpg</filename>
+		<filename>images/green/frame_right.jpg</filename>
+		<filename>images/green/frame_shad.jpg</filename>
+		<filename>images/green/logo_left.gif</filename>
+		<filename>images/green/logo_right.gif</filename>
+		<filename>images/green/menu_active1.gif</filename>
+		<filename>images/green/menu_active1.jpg</filename>
+		<filename>images/green/next.png</filename>
+		<filename>images/green/next0.png</filename>
+		<filename>images/green/pause.png</filename>
+		<filename>images/green/pause0.png</filename>
+		<filename>images/green/payment.jpg</filename>
+		<filename>images/green/prev.png</filename>
+		<filename>images/green/prev0.png</filename>
+		<filename>images/green/shopping-cart.jpg</filename>
+		<filename>images/green/stop.png</filename>
+		<filename>images/green/submenu_active.gif</filename>
+		<filename>images/green/tabs.png</filename>
+		<filename>images/green/tabs_bl.gif</filename>
+		<filename>images/green/tabs_br.gif</filename>
+		<filename>images/green/tabs_title_l.gif</filename>
+		<filename>images/green/tabs_title_off_l.gif</filename>
+		<filename>images/green/tabs_title_off_r.gif</filename>
+		<filename>images/green/tabs_title_r.gif</filename>
+		<filename>images/green/tabs_tr.gif</filename>
+		<filename>images/green/topnav_bg.gif</filename>
+		<filename>images/original/add-to-cart_brown.gif</filename>
+		<filename>images/original/add_to_cart.jpg</filename>
+		<filename>images/original/arrow_left.png</filename>
+		<filename>images/original/arrow_left_yellow.gif</filename>
+		<filename>images/original/arrow_right.png</filename>
+		<filename>images/original/body_grad.jpg</filename>
+		<filename>images/original/bullet_formod.gif</filename>
+		<filename>images/original/bullet_formod_dark.gif</filename>
+		<filename>images/original/bullet_white.gif</filename>
+		<filename>images/original/formod_bl.gif</filename>
+		<filename>images/original/formod_br.gif</filename>
+		<filename>images/original/formod_tl.gif</filename>
+		<filename>images/original/formod_tr.gif</filename>
+		<filename>images/original/frame_left.jpg</filename>
+		<filename>images/original/frame_right.jpg</filename>
+		<filename>images/original/frame_shad.jpg</filename>
+		<filename>images/original/logo_left.gif</filename>
+		<filename>images/original/logo_right.gif</filename>
+		<filename>images/original/menu_active1.gif</filename>
+		<filename>images/original/menu_active1.jpg</filename>
+		<filename>images/original/next.png</filename>
+		<filename>images/original/next0.png</filename>
+		<filename>images/original/pause.png</filename>
+		<filename>images/original/pause0.png</filename>
+		<filename>images/original/payment.jpg</filename>
+		<filename>images/original/prev.png</filename>
+		<filename>images/original/prev0.png</filename>
+		<filename>images/original/shopping-cart.jpg</filename>
+		<filename>images/original/stop.png</filename>
+		<filename>images/original/submenu_active.gif</filename>
+		<filename>images/original/tabs.png</filename>
+		<filename>images/original/tabs_bl.gif</filename>
+		<filename>images/original/tabs_br.gif</filename>
+		<filename>images/original/tabs_title_l.gif</filename>
+		<filename>images/original/tabs_title_off_l.gif</filename>
+		<filename>images/original/tabs_title_off_r.gif</filename>
+		<filename>images/original/tabs_title_r.gif</filename>
+		<filename>images/original/tabs_tr.gif</filename>
+		<filename>images/original/topnav_bg.gif</filename>
+		<filename>images/pink/add-to-cart_brown.gif</filename>
+		<filename>images/pink/add_to_cart.png</filename>
+		<filename>images/pink/arrow_left.png</filename>
+		<filename>images/pink/arrow_left_yellow.gif</filename>
+		<filename>images/pink/arrow_right.png</filename>
+		<filename>images/pink/body_grad.jpg</filename>
+		<filename>images/pink/bullet_formod.gif</filename>
+		<filename>images/pink/bullet_formod_dark.gif</filename>
+		<filename>images/pink/bullet_white.gif</filename>
+		<filename>images/pink/formod_bl.gif</filename>
+		<filename>images/pink/formod_br.gif</filename>
+		<filename>images/pink/formod_tl.gif</filename>
+		<filename>images/pink/formod_tr.gif</filename>
+		<filename>images/pink/frame_left.jpg</filename>
+		<filename>images/pink/frame_right.jpg</filename>
+		<filename>images/pink/frame_shad.jpg</filename>
+		<filename>images/pink/logo_left.gif</filename>
+		<filename>images/pink/logo_right.gif</filename>
+		<filename>images/pink/menu_active1.gif</filename>
+		<filename>images/pink/menu_active1.jpg</filename>
+		<filename>images/pink/next.png</filename>
+		<filename>images/pink/next0.png</filename>
+		<filename>images/pink/pause.png</filename>
+		<filename>images/pink/pause0.png</filename>
+		<filename>images/pink/payment.jpg</filename>
+		<filename>images/pink/prev.png</filename>
+		<filename>images/pink/prev0.png</filename>
+		<filename>images/pink/shopping-cart.jpg</filename>
+		<filename>images/pink/stop.png</filename>
+		<filename>images/pink/submenu_active.gif</filename>
+		<filename>images/pink/tabs.png</filename>
+		<filename>images/pink/tabs_bl.gif</filename>
+		<filename>images/pink/tabs_br.gif</filename>
+		<filename>images/pink/tabs_title_l.gif</filename>
+		<filename>images/pink/tabs_title_off_l.gif</filename>
+		<filename>images/pink/tabs_title_off_r.gif</filename>
+		<filename>images/pink/tabs_title_r.gif</filename>
+		<filename>images/pink/tabs_tr.gif</filename>
+		<filename>images/pink/topnav_bg.gif</filename>
+		<filename>images/silver/add-to-cart_brown.gif</filename>
+		<filename>images/silver/add_to_cart.png</filename>
+		<filename>images/silver/arrow_left.png</filename>
+		<filename>images/silver/arrow_left_yellow.gif</filename>
+		<filename>images/silver/arrow_right.png</filename>
+		<filename>images/silver/body_grad.jpg</filename>
+		<filename>images/silver/bullet_formod.gif</filename>
+		<filename>images/silver/bullet_formod_dark.gif</filename>
+		<filename>images/silver/bullet_white.gif</filename>
+		<filename>images/silver/formod_bl.gif</filename>
+		<filename>images/silver/formod_br.gif</filename>
+		<filename>images/silver/formod_tl.gif</filename>
+		<filename>images/silver/formod_tr.gif</filename>
+		<filename>images/silver/frame_left.jpg</filename>
+		<filename>images/silver/frame_right.jpg</filename>
+		<filename>images/silver/frame_shad.jpg</filename>
+		<filename>images/silver/logo_left.gif</filename>
+		<filename>images/silver/logo_right.gif</filename>
+		<filename>images/silver/menu_active1.gif</filename>
+		<filename>images/silver/menu_active1.jpg</filename>
+		<filename>images/silver/next.png</filename>
+		<filename>images/silver/next0.png</filename>
+		<filename>images/silver/pause.png</filename>
+		<filename>images/silver/pause0.png</filename>
+		<filename>images/silver/payment.jpg</filename>
+		<filename>images/silver/prev.png</filename>
+		<filename>images/silver/prev0.png</filename>
+		<filename>images/silver/shopping-cart.jpg</filename>
+		<filename>images/silver/stop.png</filename>
+		<filename>images/silver/submenu_active.gif</filename>
+		<filename>images/silver/tabs.png</filename>
+		<filename>images/silver/tabs_bl.gif</filename>
+		<filename>images/silver/tabs_br.gif</filename>
+		<filename>images/silver/tabs_title_l.gif</filename>
+		<filename>images/silver/tabs_title_off_l.gif</filename>
+		<filename>images/silver/tabs_title_off_r.gif</filename>
+		<filename>images/silver/tabs_title_r.gif</filename>
+		<filename>images/silver/tabs_tr.gif</filename>
+		<filename>images/silver/topnav_bg.gif</filename>
+		<filename>template_thumbnail.png</filename>
+	</images>
+	<css>
+		<filename>css/blue/basic.css</filename>
+		<filename>css/blue/custom.css</filename>
+		<filename>css/blue/divities.css</filename>
+		<filename>css/blue/dropline.css</filename>
+		<filename>css/blue/editor_content.css</filename>
+		<filename>css/blue/ie6.css</filename>
+		<filename>css/blue/importer.css</filename>
+		<filename>css/blue/joomla.css</filename>
+		<filename>css/blue/module.css</filename>
+		<filename>css/blue/sfish.css</filename>
+		<filename>css/blue/ui.tabs.css</filename>
+		<filename>css/green/basic.css</filename>
+		<filename>css/green/custom.css</filename>
+		<filename>css/green/divities.css</filename>
+		<filename>css/green/dropline.css</filename>
+		<filename>css/green/editor_content.css</filename>
+		<filename>css/green/ie6.css</filename>
+		<filename>css/green/importer.css</filename>
+		<filename>css/green/joomla.css</filename>
+		<filename>css/green/module.css</filename>
+		<filename>css/green/sfish.css</filename>
+		<filename>css/green/ui.tabs.css</filename>
+		<filename>css/ie6.css</filename>
+		<filename>css/ie7.css</filename>
+		<filename>css/original/basic.css</filename>
+		<filename>css/original/custom.css</filename>
+		<filename>css/original/divities.css</filename>
+		<filename>css/original/dropline.css</filename>
+		<filename>css/original/editor_content.css</filename>
+		<filename>css/original/ie6.css</filename>
+		<filename>css/original/importer.css</filename>
+		<filename>css/original/joomla.css</filename>
+		<filename>css/original/module.css</filename>
+		<filename>css/original/sfish.css</filename>
+		<filename>css/original/ui.tabs.css</filename>
+		<filename>css/pink/basic.css</filename>
+		<filename>css/pink/custom.css</filename>
+		<filename>css/pink/divities.css</filename>
+		<filename>css/pink/dropline.css</filename>
+		<filename>css/pink/editor_content.css</filename>
+		<filename>css/pink/ie6.css</filename>
+		<filename>css/pink/importer.css</filename>
+		<filename>css/pink/joomla.css</filename>
+		<filename>css/pink/module.css</filename>
+		<filename>css/pink/sfish.css</filename>
+		<filename>css/pink/ui.tabs.css</filename>
+		<filename>css/silver/basic.css</filename>
+		<filename>css/silver/custom.css</filename>
+		<filename>css/silver/divities.css</filename>
+		<filename>css/silver/dropline.css</filename>
+		<filename>css/silver/editor_content.css</filename>
+		<filename>css/silver/ie6.css</filename>
+		<filename>css/silver/importer.css</filename>
+		<filename>css/silver/joomla.css</filename>
+		<filename>css/silver/module.css</filename>
+		<filename>css/silver/sfish.css</filename>
+		<filename>css/silver/ui.tabs.css</filename>
+	</css>
+	<positions>
+		<position>breadcrumb</position>
+		<position>top</position>
+		<position>cpanel</position>
+		<position>film1</position>
+		<position>film2</position>
+		<position>film3</position>
+		<position>film4</position>
+		<position>tabs1</position>
+		<position>tabs2</position>
+		<position>tabs3</position>
+		<position>tabs4</position>
+		<position>tabs5</position>
+		<position>banner</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>user10</position>
+		<position>left</position>
+		<position>right</position>
+		<position>bodytop</position>
+		<position>legals</position>
+		<position>advert1</position>
+		<position>advert2</position>
+		<position>advert3</position>
+		<position>footer</position>
+		<position>debug</position>
+		<position>none</position>
+		<position>hide</position>
+	</positions>
+	<params>
+			<param name="@spacer" type="spacer" default="-- Default Setting For Your Joomla --" label="" description="" />
+			
+			<param name="showComponent" type="radio" default="1" label="Show Component" description="Show/Hide the component (include frontpage) output">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+			</param>
+			
+			<param name="template_color" type="list" default="blue" label="Template Color" description="Select Template Color (Original/Pink/Blue/Green/Silver)">
+			<option value="green">Green</option>
+			<option value="blue">Blue</option>
+			<option value="pink">Pink</option>
+			<option value="original">Original</option>
+			<option value="silver">Silver</option>
+			</param>
+			
+			<param name="menu_name" type="text" default="mainmenu" label="Menu Name" description="Menu Name">
+			</param>
+			
+			<param name="@spacer" type="spacer" default="-- Slide Film Configuratiom --" label="" description="" />
+			<param name="slidefilm1_speed" type="text" default="4000" label="Speed" description="Slide Film Speed">
+			</param>
+			<param name="slidefilm1_title" type="text" default="Samsung SGH-D500C" label="1st Slide Film" description="Title For 1st Slide Film">
+			</param>
+			
+			<param name="slidefilm2_title" type="text" default="Special Discount on Family and Education" label="2nd Slide Film" description="Title For 2nd Slide Film">
+			</param>
+			
+			<param name="slidefilm3_title" type="text" default="Black Berry Pearl 8110 Red" label="3rd Slide Film" description="Title For 3rd Slide Film">
+			</param>
+			
+			<param name="slidefilm4_title" type="text" default="Special Offer From Camp26" label="4th Slide Film" description="Title For 4th Slide Film">
+			</param>	
+			
+			<param name="@spacer" type="spacer" default="-- The Name For Title Tabs Module --" label="" description="" />
+			<param name="tabmodule1_name" type="text" default="Special News" label="Tab Name For 1st Tab" description="Tab Name For tabs1">
+			</param>
+			
+			<param name="tabmodule2_name" type="text" default="Space Tech" label="Tab Name For 2nd Tab" description="Tab Name For tabs2">
+			</param>
+			
+			<param name="tabmodule3_name" type="text" default="Space Health" label="Tab Name For 3rd Tab" description="Tab Name For tabs3">
+			</param>
+			
+			<param name="tabmodule4_name" type="text" default="Actual Science" label="Tab Name For 4th Tab" description="Tab Name For tabs4">
+			</param>	
+			<param name="tabmodule5_name" type="text" default="Space Clouds" label="Tab Name For 5th Tab" description="Tab Name For tabs5">
+			</param>
+			
+			<param name="@spacer" type="spacer" default="-- Let me in Details Configuration --" label="" description="" />
+			<param name="let_me_in" type="text" default="Let me in" label="Let me in Text" description="Let me in Text">
+			</param>
+			<param name="let_me_in_title" type="text" default="Let me in" label="Let me in Title" description="Let me in Title">
+			</param>
+			<param name="let_me_in_url" type="text" default="" label="Let me in URL" description="Let me in URL">
+			</param>
+			<param name="on_let_me_in" type="text" default="My Account" label="Let me in Text (After Login)" description="Let me in Text (After Login)">
+			</param>
+			<param name="on_let_me_in_title" type="text" default="My Account" label="Let me in Title (After Login)" description="Let me in Title (After Login)">
+			</param>
+			<param name="on_let_me_in_url" type="text" default="" label="Let me in URL (After Login)" description="Let me in URL (After Login)">
+			</param>
+			
+			<param name="@spacer" type="spacer" default="-- AD ICO Global Configuration --" label="" description="" />
+			<param name="sponsorship_area" type="text" default="Sponsorship Area" label="Title" description="Title AD ICO">
+			</param>
+			<param name="path_images_adsbanner" type="text" default="templates/camp26_e_buy/images/adsbanner/" label="Images Path" description="Images Path (templates/camp26_e_buy/images/adsbanner/ | images/banners)">
+			</param>
+			<param name="adsbanner_default_link" type="text" default="http://www.camp26.com" label="Default URL" description="Default URL">
+			</param>
+			<param name="adsbanner_default_title1" type="text" default="Spot No" label="Default Title1" description="Default Title1">
+			</param>
+			<param name="adsbanner_default_title2" type="text" default="Advertise Your Service Here" label="Default Title2" description="Default Title2">
+			</param>
+			<param name="adsbanner_default_text" type="text" default="Advertise Your Service Here" label="Default Description" description="Default Description">
+			</param>
+			
+			<param name="@spacer" type="spacer" default="-- HoverBanner Global Configuration --" label="" description="" />
+			<param name="hoverbanner_img_hover" type="text" default="templates/camp26_e_buy/images/camp26hover.jpg" label="Hover Image" description="Hover Image">
+			</param>
+			<param name="hoverbanner_img_top" type="text" default="templates/camp26_e_buy/images/camp26top.jpg" label="Top Image" description="Top Image">
+			</param>
+			<param name="hoverbanner_link" type="text" default="" label="URL" description="URL">
+			</param>
+			<param name="hoverbanner_alt" type="text" default="Get the template" label="ALT" description="ALT">
+			</param>
+			<param name="hoverbanner_target" type="radio" default="_blank" label="Target" description="Target">
+			<option value="_blank">New Browser</option>
+			<option value="_self">Primary Browser</option>
+			</param>
+	</params>
+</install>

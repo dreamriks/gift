@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+	<name>eny_purple_dream</name>
+	<version>1.0.0</version>
+	<creationDate>11/18/09</creationDate>
+	<author>ENYtheme.com</author>
+	<authorEmail>info@enytheme.comm</authorEmail>
+	<authorUrl>http://www.enytheme.com</authorUrl>
+	<copyright>ENYtheme e.K.</copyright>
+	<description>This is a free joomla template from ENYtheme.com</description>
+	
+	
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>includes</folder>
+        <filename>index.php</filename>
+        <filename>component.php</filename>
+        <filename>templateDetails.xml</filename>
+        <filename>params.ini</filename>
+        <filename>template_thumbnail.png</filename>
+        <filename>templateDetails.xml</filename>
+	</files>
+	
+	<positions>
+		<position>topmenu</position>
+		<position>logo</position>
+		<position>banner</position>
+		<position>menu</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>user9</position>
+		<position>user10</position>
+		<position>user11</position>
+		<position>user12</position>
+		<position>footer</position>
+		<position>debug</position>
+	</positions>
+</install>

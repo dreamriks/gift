@@ -1,0 +1,104 @@
+#topnav ul {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+#topnav ul ul ul {
+	left: -5000px;
+}
+
+#topnav li {
+	padding: 0;
+	margin: 0;
+	float: left;
+	display: block;
+}
+
+#topnav li.active a {
+	background: url(../../images/original/menu_active1.gif) 50% 0 no-repeat;
+	color: #fff;
+}
+
+#topnav li ul {
+	display: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top:35px;
+	height: 22px;
+	left: 0;
+	width: 5000px;
+	background: #724b25;
+}
+
+#topnav a {
+	color: #d3a004;
+	text-decoration: none;
+	cursor: pointer;
+	font-family: arial, verdana, tahoma, sans-serif;
+	font-weight: bold;
+}
+
+#topnav a:hover {
+	color: #f9ef99;
+}
+
+#topnav li ul a:hover,
+#topnav li.active ul a:hover {
+	color: #ccc;
+}
+
+#topnav li.active ul {
+	display: block;
+	background: transparent
+}
+
+#topnav li:hover ul, #topnav li.sfhover ul {
+	display: block;
+	z-index: 6000;
+}
+
+#topnav li a {
+	display: block;
+	float: left;
+	padding: 0 10px;
+	height: 35px;
+	line-height: 35px;
+}
+
+#topnav li:hover a, 
+#topnav li.over a {
+}
+
+#topnav li li.active a, 
+#topnav li li.active:hover a,
+#topnav li li.over.active a {
+}
+
+/* sub level links */
+
+#topnav ul li {
+	border-right: 0;
+}
+
+#topnav li ul a, #topnav li.active ul a {
+	display: block;
+	float: left;
+	color: #fe7d27;
+	font-family: arial, verdana, tahoma, sans-serif;
+	font-weight: bold;
+	padding: 0 10px;
+	background: none;
+	height: 25px;
+	line-height: 21px;
+}
+
+#topnav li.active{
+
+}
+
+#topnav ul li ul li.active a {
+	color: #ffff00;
+		background: transparent url(../../images/original/submenu_active.gif) no-repeat 50% 85%;
+}

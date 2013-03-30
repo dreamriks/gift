@@ -1,0 +1,16 @@
+
+tr.col_content td#lastcol ul li{
+	background: url(../../images/pink/bullet_formod_dark.gif) no-repeat left 5px;
+}
+
+tr.col_content td#lastcol ul li a:link{
+	color: #fff000;
+}
+
+tr.col_content td#lastcol ul li a:visited{
+	color: #222;
+}
+
+tr.col_content td#lastcol ul li a:hover{
+	color: #fff;
+}

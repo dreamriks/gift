@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+  <name>FSF</name>
+  <!-- The following elements are optional and free of formatting constraints -->
+  <creationDate>2012 05 21</creationDate>
+  <authorEmail>support@freestyle-joomla.com</authorEmail>
+  <authorUrl>http://www.freestyle-joomla.com</authorUrl>
+  <author>Freestyle Joomla</author>
+  <copyright>Copyright Freestyle Joomla 2010</copyright>
+  <license>Please see http://www.freestyle-joomla.com/license for software license</license>
+  <version>1.9.1.1332</version>
+  <description>Freestyle FAQs</description>
+
+  <installfile>install.fsf.php</installfile>
+  <uninstallfile>uninstall.fsf.php</uninstallfile>
+
+  <!-- Site Main File Copy Section -->
+  <files folder="site">
+    <filename>controller.php</filename>
+    <filename>fsf.php</filename>
+    <filename>index.html</filename>
+    <filename>_powered.php</filename>
+
+    <folder>views</folder>
+    <folder>models</folder>
+    <folder>assets</folder>
+    <folder>helper</folder>
+  </files>
+
+  <languages folder="site_lang">
+    <language tag="en-GB">en-GB/en-GB.com_fsf.ini</language>
+  </languages>
+
+  <administration>
+    <!-- Administration Menu Section -->
+    <menu img="components/com_fsf/assets/menu_icon_s.png">Freestyle FAQs</menu>
+    <submenu>
+      <menu img="images/blank.png" link="option=com_fsf&amp;view=settings">Settings</menu>
+
+      <menu img="images/blank.png" link="option=com_fsf&amp;view=faqs">FAQs</menu>
+      <menu img="images/blank.png" link="option=com_fsf&amp;view=faqcats">FAQ Categories</menu>
+
+      <menu img="images/blank.png" link="option=com_fsf&amp;view=glossarys">Glossary</menu>
+
+      <menu img="images/blank.png" link="option=com_fsf&amp;view=backup">Admin</menu>
+    </submenu>
+
+    <!-- Administration Main File Copy Section -->
+    <files folder="admin">
+
+      <filename>install.fsf.php</filename>
+      <filename>uninstall.fsf.php</filename>
+
+      <filename>database_fsf.dat</filename>
+
+      <filename>config.xml</filename>
+      <filename>controller.php</filename>
+      <filename>element.php</filename>
+      <filename>fsf.php</filename>
+      <filename>index.html</filename>
+      <filename>settings.php</filename>
+      <filename>updatedb.php</filename>
+      <filename>adminhelper.php</filename>
+
+      <folder>extensions</folder>
+      <folder>assets</folder>
+      <folder>controllers</folder>
+      <folder>elements</folder>
+      <folder>models</folder>
+      <folder>tables</folder>
+      <folder>views</folder>
+    </files>
+
+    <languages folder="admin_lang">
+      <language tag="en-GB">en-GB/en-GB.com_fsf.ini</language>
+      <language tag="en-GB">en-GB/en-GB.com_fsf.menu.ini</language>
+    </languages>
+  </administration>
+
+</install>

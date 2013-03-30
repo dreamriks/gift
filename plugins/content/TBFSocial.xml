@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+	<name>Content - TBFSocial</name>
+	<author>JoomlaTags</author>
+	<creationDate>14 May 2010</creationDate>
+	<copyright>GNU/GPLv2</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>joomlatags@gmail.com</authorEmail>
+	<authorUrl>www.joomlatags.org</authorUrl>
+	<version>1.4</version>
+    <description>TBF Social Plugin helps your visitors to share your article on twitter, google buzz and facebook. Twitter sharing is done through Topsy buttons and Facebook Like button is used for sharing on Facebook.
+    </description>
+	<files>
+		<filename plugin="TBFSocial">TBFSocial.php</filename>	      
+	</files>
+	<params>
+	 <param name="EnableBuzz" type="radio" default="1" label="Enable Google Buzz" description="Enable Google Buzz button">
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+    </param>
+     <param name="BuzzTitle" type="text" default="Post on Google Buzz" label="Buzz Title" description="Buzz Title"></param>
+     <param name="EnableTwitter" type="radio" default="1" label="Enable Twitter" description="Enable Twitter button">
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+    </param>
+     <param name="TwitterUsername" type="text" default="" label="Twitter User Name" description="This should be set to the Twitter username that you want to appear in retweet text (without an @)."></param>
+     <param name="EnableDigg" type="radio" default="0" label="Enable Digg" description="Enable digg button">
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+    </param>
+    <param name="@spacer" type="spacer" default="&lt;b&gt;Facebook&lt;/b&gt;" label="" description="" />
+   <param name="EnableFacebook" type="radio" default="1" label="Enable Facebook" description="Enable Facebook button">
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+    </param>
+     <param name="FacebookAutoURL" type="radio" default="1" label="Auto URL Discovery" description="Automatically use current page URL">
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </param>
+     <param name="FacebookURL" type="text" default="" label="If No, URL" description="What URL to use" size="40" />
+           <param name="FacebookLayout" type="list" default="standard" label="Layout Style" description="What layout should the button have">
+          <option value="standard">Standard</option>
+          <option value="button_count">button_count</option>
+        </param>
+        <param name="FacebookShowFaces" type="radio" default="false" label="Show Faces" description="Show faces under button">
+          <option value="true">Yes</option>
+          <option value="false">No</option>
+        </param>
+        <param name="FacebookWidth" type="text" default="450" label="Width" description="Width in pixels" size="5" />
+	  <param name="FacebookHeight" type="text" default="20" label="Height" description="Height in pixels" size="5" />
+        <param name="FacebookVerb" type="list" default="like" label="Verb to display" description="What verb to use">
+          <option value="like">Like</option>
+          <option value="recommend">Recommend</option>
+        </param>
+
+        <param name="FacebookColorScheme" type="list" default="light" label="Colour Scheme" description="What colour scheme to use">
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </param>
+     <param name="FacebookImage" type="radio" default="1" label="Facebook Image" description="Using the first image of the content as the Facebook image.">
+     <option value="1">Yes</option>
+  	 <option value="0">No</option>  
+     </param>
+     
+   	</params>
+   	<params group="advanced">
+   	<param name="Position" type="list" default="0" label="Position" description="TBF buttons position, default is show at the bottom of the content.">
+			<option value="0">Bottom</option>
+			<option value="1">Top</option>
+			<option value="2">Both</option>
+	</param>
+	<param name="OnlyArticles" type="list" default="1" label="Only Articles" description="TBF buttons only show for articles, otherwise show for all pages(like frontpage,blog layout etc)">
+			<option value="1">Yes</option>
+			<option value="0">No</option>			
+	</param>
+      <param name="Margin" type="text" default="5" label="Margin" description="Margin in pixels,default is 5px."/>
+      <param name="Exclude_Article_Ids" type="text" default="" label="Exclude article ids" description="Ignore these articles, Seperator with comma ','."/>
+      <param name="Exclude_Category_Ids" type="text" default="" label="Exclude category ids" description="Ignore these categories, Seperator with comma ','."/>
+      <param name="Exclude_Section_Ids" type="text" default="" label="Exclude section ids" description="Ignore these sections, Seperator with comma ','."/>
+	</params>	
+</install>

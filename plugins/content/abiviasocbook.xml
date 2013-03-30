@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content" method="upgrade">
+	<name>Abivia.net Social Bookmarking plugin</name>
+	<author>Abivia Inc</author>
+	<creationDate>2009 05 05</creationDate>
+	<copyright>(C) 2009. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorUrl>http://www.abivia.net</authorUrl>
+	<version>1.0.3</version>
+	<description>A free extension from Abivia (http://www.abivia.net). Generates social bookmark widgets for content articles. Support for addthis.com with all parameters.</description>
+	<files>
+		<filename plugin="abiviasocbook">abiviasocbook.php</filename>
+	</files>
+  <params>
+    <param name="frontpage" type="radio" default="1" label="Show on Front Page" description="Select yes to display on front page articles.">
+           <option value="1">Yes</option>
+           <option value="0">No</option>
+    </param>
+    <param name="section" type="radio" default="1" label="Show in Section View" description="Select yes to display in section view.">
+           <option value="1">Yes</option>
+           <option value="0">No</option>
+    </param>
+    <param name="category" type="radio" default="1" label="Show in Category View" description="Select yes to display in category view.">
+           <option value="1">Yes</option>
+           <option value="0">No</option>
+    </param>
+    <param name="sectionIDList" type="text" size="50" default="" label="Section IDs" description="List of sections to include/exclude, separated by commas. Start with a minus sign to exclude sections." />
+    <param name="categoryIDList" type="text" size="50" default="" label="Category IDs" description="List of categories to include/exclude, separated by commas. Start with a minus sign to exclude categories." />
+    <param name="articleIDList" type="text" size="50" default="" label="Article IDs" description="List of articles to include/exclude, separated by commas. Start with a minus sign to exclude articles." />
+    <param name="placement" type="list" default="beforeDisplayContent" label="Widget Location" description="Where to place the widget(s). Note that depending on parameters, widgets may not display. For example, with afterDisplayTitle widgets will only display if the 'Intro Text' Parameter resolves to 'Show'.">
+           <option value="afterDisplayTitle">After Title</option>
+           <option value="beforeDisplayContent">Before Content</option>
+           <option value="afterDisplayContent">After Content</option>
+           <option value="content.pre">Top of Article Body</option>
+           <option value="content.post">Bottom of Article Body</option>
+    </param>
+    <param name="language" type="text" size="5" default="en" label="Language Code" description="Enter two letter code for menu language (English en, Chinese zh, Danish da, Dutch nl, Finnish fi, French fr, German de, Hebrew he, Icelandic is, Italian it, Japanese ja, Korean ko, Norwegian no, Polish pl, Portuguese pt, Russian ru, Slovenian sl, Spanish es, Swedish sv, Turkish tr, Welsh cy)."/>
+    <param name="@spacer" type="spacer" default="AddThis Options" label="AddThis Options" description="AddThis Options" />
+    <param name="useAddThis" type="radio" default="1" label="Use AddThis" description="Select to display an AddThis widget.">
+           <option value="1">Yes</option>
+           <option value="0">No</option>
+    </param>
+    <param name="addthis_buttonsize" type="list" default="lg" label="Button Size" description="Select the button size. Not all combinations of size and style exist. If you pick one that doesn't exist, the plugin will use the closest match.">
+           <option value="0">None</option>
+           <option value="lg">Large</option>
+           <option value="sm">Small</option>
+           <option value="-">Custom (enter path below)</option>
+    </param>
+    <param name="addthis_buttonstyle" type="list" default="share" label="Button Style" description="Select the button style. Not all combinations of size and style exist. If you pick one that doesn't exist, the plugin will use the closest match.">
+           <option value="share">Share</option>
+           <option value="bookmark">Bookmark</option>
+           <option value="addthis">Add This (large only)</option>
+           <option value="plus">"Plus" Icon (small only)</option>
+    </param>
+    <param name="addthis_buttonimage" type="text" size="50" default="" label="Custom Button Image" description="Location of an image you want to use as a custom widget button."/>
+    <param name="addthis_text" type="text" size="50" default="" label="Widget Text" description="Optional text to display after (or instead of) the widget button."/>
+    <param name="addthis_pub" type="text" default="" label="AddThis Account" description="Optional AddThis account ID. Required for analytics."/>
+    <param name="addthis_brand" type="text" size="50" default="" label="Branding Text" description="Text displayed on the pop-up. Space is limited, max 15 characters recommended."/>
+    <param name="addthis_header_color" type="text" default="FFFFFF" label="Header Colour" description="The color to use for the text foreground in the header of the hover menu and lightbox, in hex."/>
+    <param name="addthis_header_background" type="text" default="000000" label="Header Background Colour" description="The color to use as a background in the header of the hover menu and lightbox, in hex."/>
+    <param name="addthis_options" type="text" default="" label="Bookmark Services" description="Enter the services you want to use separated by comma, or leave blank for default. Options include: aim, ask, backflip, ballhype, bebo, blogmarks, buzz, delicious, digg, diigo, email, facebook, favorites, fark, feedmelinks, friendfeed, google, kaboodle, kirtsy, linkedin, live, misterwong, mixx, multiply, myaol, myspace, netvouz, newsvine, print, propeller, reddit, segnalo, simpy, slashdot, spurl, stumbleupon, stylehive, tailrank, technorati, thisnext, twitter, yardbarker, yahoobkm, more."/>
+    <param name="addthis_offset_top" type="text" default="" label="Vertical Offset (px)" description="Vertical offset for the drop-down window (in pixels). Leave blank for default."/>
+    <param name="addthis_offset_left" type="text" default="" label="Horizontal Offset (px)" description="Horizontal offset for the drop-down window (in pixels). Leave blank for default."/>
+    <param name="addthis_hover_delay" type="text" default="" label="Hover Delay (mS)" description="Delay before opening the menu, in milliseconds (minimum 50, maximum 500). Leave blank for default."/>
+    <param name="@spacer1" type="spacer" default="ShareThis Code" label="ShareThis Code" description="ShareThis Code" />
+    <param name="SharethisCode" type="textarea" cols="30" default="" label="Enter the code of your ShareThis button."/>
+    <param name="@spacer2" type="spacer" default="Tellafriend code (SocialTwist)" label="Tellafriend code (SocialTwist)" description="Enter the Tellafriend code (SocialTwist)"/>
+    <param name="TellafriendCode" type="textarea" cols="30" default="" label="Enter the Tellafriend's code (SocialTwist)."/>
+    <param name="@spacer3" type="spacer" default="Custom/other service Code" label="Custom/other service Code" description="Custom/other service code"/>
+    <param name="CustomCode" type="textarea" cols="30" default="" label="Enter the code from other Share service."/>
+  </params>
+</install>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/plugin-install.dtd">
+<install type="plugin" group="content" version="1.5.0">
+	<!-- Extension information //-->
+	<name>yvcomment</name>
+	<creationDate>2008-01-27</creationDate>
+	<author>Yuri Volkov</author>
+	<authorEmail>Email -> Visit the website:</authorEmail>
+	<authorUrl>http://yurivolkov.com/Joomla/yvComment/index_en.html</authorUrl>
+	<copyright>(c) 2007 yvolk (Yuri Volkov), http://yurivolkov.com. All rights reserved.</copyright>
+	<license>GPL</license>
+	<version>1.12.5</version>
+	<description>
+		A comments extension (component + plugin) for Joomla 1.5 only! 
+		This file (package) is "yvComment Plugin" part of yvComment extension.
+    It is required to install both "yvComment Component" and "yvComment Plugin".
+		See yvComment's Homepage [url]http://yurivolkov.com/Joomla/yvComment/index_en.html[/url] for more information.
+	</description>
+
+	<files folder="www/plugins/content">
+		<filename plugin="yvcomment">yvcomment.php</filename>
+	</files>
+
+  <!-- old method to describe language files 
+       Generally works
+  -->
+	<languages>
+		<language tag="de-DE">www/administrator/language/de-DE/de-DE.plg_content_yvcomment.ini</language>
+		<language tag="en-GB">www/administrator/language/en-GB/en-GB.plg_content_yvcomment.ini</language>
+		<language tag="es-ES">www/administrator/language/es-ES/es-ES.plg_content_yvcomment.ini</language>
+    <language tag="fa-IR">www/administrator/language/fa-IR/fa-IR.plg_content_yvcomment.ini</language>
+    <language tag="fr-FR">www/administrator/language/fr-FR/fr-FR.plg_content_yvcomment.ini</language>
+		<language tag="hu-HU">www/administrator/language/hu-HU/hu-HU.plg_content_yvcomment.ini</language>
+		<language tag="it-IT">www/administrator/language/it-IT/it-IT.plg_content_yvcomment.ini</language>
+    <language tag="nl-NL">www/administrator/language/nl-NL/nl-NL.plg_content_yvcomment.ini</language>
+		<language tag="ru-RU">www/administrator/language/ru-RU/ru-RU.plg_content_yvcomment.ini</language>
+   	<language tag="sv-SE">www/administrator/language/sv-SE/sv-SE.plg_content_yvcomment.ini</language>
+		<language tag="tr-TR">www/administrator/language/tr-TR/tr-TR.plg_content_yvcomment.ini</language>
+		<language tag="zh-CN">www/administrator/language/zh-CN/zh-CN.plg_content_yvcomment.ini</language>
+		<language tag="zh-TW">www/administrator/language/zh-TW/zh-TW.plg_content_yvcomment.ini</language>
+	</languages>
+
+  <!-- new method to describe language files
+       Doesn't work well :-(
+       2007-05-15 Installs only first language
+   -->
+  <!-- 
+  <languages folder="www/administrator/language/en-GB">
+    <language tag="en-GB">en-GB.plg_content_yvcomment.ini</language>
+  </languages>
+  <languages folder="www/administrator/language/ru-RU">
+    <language tag="ru-RU">ru-RU.plg_content_yvcomment.ini</language>
+  </languages>
+  -->
+
+  <params>
+		<param name="usecontenttable" type="list" default="1" label="USE_CONTENT_TABLE" description="USE_CONTENT_TABLE_DESC">
+			<option value="1">YES</option>
+			<option value="0">NO</option>
+		</param>
+		<param name="sectionid" type="section" default="0" label="SECTION_FOR_COMMENTS" description=""/>
+		<param name="categoryid" type="category" default="0" label="CATEGORY_FOR_COMMENTS" description=""/>
+		<param name="articlesectionids" type="textarea" default="" rows="3" cols="20" label="SECTIONS_OF_ARTICLES" description="SECTIONS_OF_ARTICLES_DESC"/>
+		<param name="articlesectionids_exclude" type="radio" default="0" label="SECTIONS_OF_ARTICLES_EXCLUDE" description="">
+		  <option value="0">NO</option>
+		  <option value="1">YES</option>
+		</param>
+		<param name="author_linkable" type="radio" default="0" label="AUTHOR_LINKABLE" description="AUTHOR_LINKABLE_DESC">
+		  <option value="0">NO</option>
+		  <option value="1">YES</option>
+		</param>
+		<param name="numcomments_linkable" type="list" default="article" label="NUMCOMMENTS_LINKABLE" description="NUMCOMMENTS_LINKABLE_DESC">
+		  <option value="0">NO</option>
+		  <option value="article">ARTICLE_VIEW</option>
+		  <option value="comment">TYPE_COMMENT_DESC</option>
+		</param>
+		<param name="orderby_pri" type="list" default="rdate" label="Primary Order" description="Order that the items will be displayed in.">
+			<option value="date">Oldest first</option>
+			<option value="rdate">Most recent first</option>
+		</param>
+		<param name="show_pagination" type="list" default="0" label="SHOW_PAGINATION" description="SHOW_PAGINATION_DESC">
+			<option value="0">HIDE</option>
+			<option value="1">SHOW</option>
+		</param>
+		<!-- 
+		<param name="show_pagination_limit" type="radio" default="0" label="SHOW_PAGINATION_LIMIT" description="SHOW_PAGINATION_LIMIT_DESC">
+			<option value="0">HIDE</option>
+			<option value="1">SHOW</option>
+		</param>
+		 -->
+ 		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="max_characters_fulltext" type="text" size="9" default="" label="MAX_CHARACTERS_FULLTEXT" description="MAX_CHARACTERS_FULLTEXT_DESC" />
+		<param name="allow_html_edit_text" type="radio" default="no" label="ALLOW_HTML_EDIT_TEXT" description="ALLOW_HTML_EDIT_TEXT_DESC">
+		  <option value="no">NO</option>
+		  <option value="allowhtml">ALLOW_HTML</option>
+		  <option value="allowraw">ALLOW_RAW</option>
+		</param>
+		<param name="min_post_period_user" type="text" size="9" default="60" label="MIN_POST_PERIOD_USER" description="MIN_POST_PERIOD_USER_DESC" />
+ 		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="allow_guest_add" type="radio" default="0" label="ALLOW_GUEST_ADD" description="ALLOW_GUEST_ADD_DESC">
+		  <option value="0">NO</option>
+		  <option value="1">YES</option>
+		</param>
+		<param name="guest_username" type="text" size="20" default="" label="GUEST_USERNAME" description="GUEST_USERNAME_DESC" />
+		<param name="check_guest_alias" type="radio" default="1" label="CHECK_GUEST_ALIAS" description="CHECK_GUEST_ALIAS_DESC">
+		  <option value="0">NO</option>
+		  <option value="1">YES</option>
+		</param>
+		<param name="guest_email_required" type="radio" default="0" label="GUEST_EMAIL_REQUIRED" description="">
+		  <option value="0">NO</option>
+		  <option value="1">YES</option>
+		</param>
+		<param name="allow_guest_link" type="radio" default="0" label="ALLOW_GUEST_LINK" description="ALLOW_GUEST_LINK_DESC">
+		  <option value="0">NO</option>
+		  <option value="1">YES</option>
+		</param>
+		<param name="guest_add_published" type="radio" default="0" label="GUEST_ADD_PUBLISHED" description="GUEST_ADD_PUBLISHED_DESC">
+		  <option value="0">NO</option>
+		  <option value="1">YES</option>
+		</param>
+		<param name="min_post_period_guest" type="text" size="9" default="30" label="MIN_POST_PERIOD_GUEST" description="MIN_POST_PERIOD_GUEST_DESC" />
+		<param name="use_captcha" type="radio" default="1" label="USE_CAPTCHA" description="USE_CAPTCHA_DESC">
+		  <option value="0">NO</option>
+		  <option value="1">YES</option>
+		</param>
+ 		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="notify_addedit_usernames" type="text" size="20" default="" label="NOTIFY_ADDEDIT_USERNAMES" description="NOTIFY_ADDEDIT_USERNAMES_DESC" />
+ 		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="execute_content_plugins" type="radio" default="0" label="EXECUTE_CONTENT_PLUGINS" description="EXECUTE_CONTENT_PLUGINS_DESC">
+		  <option value="0">NO</option>
+		  <option value="1">YES</option>
+		</param>
+		<param name="use_smiley_form" type="radio" default="1" label="USE_SMILEY_FORM" description="">
+		  <option value="0">NO</option>
+		  <option value="1">YES</option>
+		</param>
+		<param name="use_bbcode_form" type="radio" default="1" label="USE_BBCODE_FORM" description="">
+		  <option value="0">NO</option>
+		  <option value="1">YES</option>
+		</param>
+	</params>
+	<params group="advanced">
+		<param name="joomla_version_warning" type="radio" default="1" label="JOOMLA_VERSION_WARNING" description="">
+		  <option value="0">NO</option>
+		  <option value="1">YES</option>
+		</param>
+		<param name="usedefaultcss" type="radio" default="1" label="USE_DEFAULT_CSS_FILE" description="">
+		  <option value="0">NO</option>
+		  <option value="1">YES</option>
+		</param>
+		<param name="position" type="list" default="AfterContent" label="POSITION_OF_COMMENTS" description="POSITION_OF_COMMENTS_DESC">
+			<option value="InsideBox">INSIDE_ARTICLE_BOX</option>
+			<option value="AfterContent">BELOW_ARTICLE_BOX</option>
+		</param>
+	</params>
+</install>

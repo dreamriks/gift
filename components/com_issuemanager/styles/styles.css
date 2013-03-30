@@ -1,0 +1,149 @@
+/* 
+    Document   : styles.css
+    Created on : 30-dic-2009, 19:30:05
+    Author     : Luis Martín
+    Description:
+        Styles for the front-end
+*/
+
+.ticket_list, .ticket_info, .post_list {
+    font-size:.9em;
+    border: 1px solid #cccccc;
+    border-collapse:collapse;
+    padding: 10px;
+}
+
+.ticket_list td, .ticket_info td, .post_list td {
+    border: 1px solid #cccccc;
+    border-collapse:collapse;
+    padding: 8px;
+}
+
+.ticket_list th, .ticket_info th, .post_list th {
+    border: 1px solid #cccccc;
+    border-collapse:collapse;
+    padding: 10px;
+    background-color:#e5e5e5;
+}
+
+.r0 {
+    background-color: #fcfcfc;
+}
+
+.r0:hover, .r1:hover {
+    background-color: #ffffdd;
+}
+
+.r1 {
+    background-color: #f3f3f3;
+}
+
+.new_post {
+    display:block;
+    width:20px;
+    height:20px;
+    background:url('../assets/icons/alert_new_message.gif') no-repeat;
+}
+
+.resolved {
+    display:block;
+    width:20px;
+    height:20px;
+    background:url('../assets/icons/alert_ticket_resolved.gif') no-repeat;
+}
+
+.no_order {
+    display:block;
+    width:20px;
+    height:20px;
+    background:url('../../../administrator/images/publish_x.png') no-repeat;
+}
+
+#ticket_subject {
+    width:180px;
+    background-color:#FFFFE5;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:.9em;
+}
+
+#post_body {
+    width:180px;
+    height:200px;
+    background-color:#FFFFE5;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:.9em;
+}
+
+.ticket {
+    float:left;
+    padding-right: 20px;
+}
+
+.orders {
+    font-size:.8em;
+    height: 200px;
+    overflow:auto;
+}
+
+.orders table {
+    border: 1px solid #CCCCCC;
+    border-collapse:collapse;
+}
+
+.orders table td, .orders table th {
+    border-bottom: 1px solid #CCCCCC;
+    border-collapse:collapse;
+    padding: 8px 4px;
+}
+
+.closed {
+    background-color:#DDDDF0;
+}
+
+.empty {
+    background-color:#AAAACC;
+}
+
+.waiting_answer {
+    background-color:#FFF5DF;
+}
+
+.smaller {
+    font-size:.8em;
+}
+
+.order_link {
+    color:#0000DD;
+    cursor:pointer;
+}
+
+/** JA_Purity issue with overLIB **/
+.ol-foreground
+{
+    background-color: #EEF3FF;
+    border: solid 1px #215DC6;
+    padding: 5px;
+}
+
+.ol-background {
+background-color: #666;
+}
+
+.ol-textfont {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+}
+
+.ol-captionfont {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #f6f6f6;
+font-weight: bold;
+}
+.ol-captionfont a {
+color: #0B55C4;
+text-decoration: none;
+font-size: 12px;
+}
+
+.ol-closefont {}

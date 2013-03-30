@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="TESTIMONIALS_LIST">
+		<help url = "http://www.freestyle-joomla.com/comhelp/fst/frontend-view-test-default" />
+		<message></message>
+	</layout>
+	<state>
+		<name>TESTIMONIALS_LIST</name>
+
+		<url addpath="/administrator/components/com_fst/elements">
+			<param name="prodid" type="sql" default="" label="Select Product" query="(SELECT -1 as id, 'All Products' as title) UNION (SELECT 0 as id, 'General Testimonials' as title) UNION (SELECT id, title FROM #__fst_prod ORDER BY ordering)" key_field="id" value_field="title" />
+		</url>
+
+		<params>
+			<param name="test_show_prod_mode" type="list" default="accordian" label="Product List Mode" description="When viewing testimonials, how should products be displayed?">
+				<option value="list">Normal List</option>
+				<option value="inline">Inline Testimonials</option>
+				<option value="accordian">Accordian Testimonials</option>
+			</param>
+			<param name="test_pages" type="radio" default="1" label="Use pages for testimonial list" description="When viewing testimonials, should the testimonals be paged?">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+			<param name="test_always_prod_select" type="radio" default="0" label="Always show product select when adding a testimonial" description="When adding a testimonial, should the product select dropdown be shown even if a product is already selected?">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+		</params>
+
+		<fields name="request">
+			<fieldset name="request">
+				<field name="prodid" type="sql" default="" label="Select Product" query="(SELECT -1 as id, 'All Products' as title) UNION (SELECT 0 as id, 'General Testimonials' as title) UNION (SELECT id, title FROM #__fst_prod ORDER BY ordering)" key_field="id" value_field="title" />
+			</fieldset>
+		</fields>
+
+		<fields name="params">
+			<fieldset name="mainpage" label="When Showing Product List">
+				<field name="test_show_prod_mode" type="list" default="accordian" label="Show Product List" description="When viewing testimonials, how should products be displayed?">
+					<option value="list">Normal List</option>
+					<option value="inline">Inline Testimonials</option>
+					<option value="accordian">Accordian Testimonials</option>
+				</field>
+				<field name="test_pages" type="radio" default="1" label="Use pages for testimonial list" description="When viewing testimonials, should the testimonals be paged?">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="test_always_prod_select" type="radio" default="0" label="Always show product select when adding a testimonial" description="When adding a testimonial, should the product select dropdown be shown even if a product is already selected?">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+			</fieldset>
+		</fields>
+	</state>
+</metadata>

@@ -1,0 +1,68 @@
+<?php
+if( !defined( '_VALID_MOS' ) && !defined( '_JEXEC' ) ) die( 'Direct Access to '.basename(__FILE__).' is not allowed.' ); 
+/*------------------------------------------------------------------------
+# Classic I Theme for VirtueMart 1.1.x - March, 2009
+# ------------------------------------------------------------------------
+# Copyright (C) 2009-2013 VMJunction.com, Ltd. All Rights Reserved.
+# @license - Copyrighted Commercial Software
+# Author: VMJunction.com
+# Websites:  http://www.VMJunction.com
+# Icon Designed by: http://www.dryicons.com
+-------------------------------------------------------------------------*/
+
+if ($perm->is_registered_customer($auth['user_id'])) {
+
+?>
+  <strong><?php echo $VM_LANG->_('PHPSHOP_ACC_CUSTOMER_ACCOUNT') ?></strong>
+  <?php  echo $auth["first_name"] . " " . $auth["last_name"] . "<br />";?>
+  <br />
+  <table border="0" cellspacing="0" cellpadding="10" width="100%" align="center">
+  
+          
+    <tr>
+      <td>
+      <strong><a href="<?php $sess->purl(SECUREURL . "index.php?page=account.billing") ?>">
+          <?php 
+          echo "<img src=\"".VM_THEMEURL."images/identity.png\" align=\"middle\" height=\"48\" width=\"48\" border=\"0\" alt=\"".$VM_LANG->_('PHPSHOP_ACCOUNT_TITLE')."\" />&nbsp;";
+          echo $VM_LANG->_('PHPSHOP_ACC_ACCOUNT_INFO') ?></a></strong>
+          <br /><?php echo $VM_LANG->_('PHPSHOP_ACC_UPD_BILL') ?>
+      </td>
+    </tr>
+    <?php
+    if(NO_SHIPTO != '1') {
+	?>
+		<tr><td>&nbsp;</td></tr>
+		
+		<tr>
+		  <td><hr />
+		  <strong><a href="<?php $sess->purl(SECUREURL . "index.php?page=account.shipping") ?>"><?php
+                  echo "<img src=\"".VM_THEMEURL."images/web.png\" align=\"middle\" border=\"0\" height=\"32\" width=\"32\" alt=\"".$VM_LANG->_('PHPSHOP_ACC_SHIP_INFO')."\" />&nbsp;&nbsp;&nbsp;";
+                  echo $VM_LANG->_('PHPSHOP_ACC_SHIP_INFO') ?></a></strong>
+                        <br />
+                        <?php echo $VM_LANG->_('PHPSHOP_ACC_UPD_SHIP') ?>
+                  </td>
+                </tr>
+                <?php
+	}
+	?>
+    <tr><td>&nbsp;</td></tr>
+    
+    <tr>
+      <td>
+      	<hr />
+      	<strong><?php 
+	      echo "<img src=\"".VM_THEMEURL."images/package.png\" align=\"middle\" height=\"32\" width=\"32\" border=\"0\" alt=\"".$VM_LANG->_('PHPSHOP_ACC_ORDER_INFO')."\" />&nbsp;&nbsp;&nbsp;";
+	      echo $VM_LANG->_('PHPSHOP_ACC_ORDER_INFO') ?>
+	    </strong>
+        <?php $ps_order->list_order("A", "1" ); ?>
+      </td>
+    </tr>
+    
+</table>
+<!-- Body ends here -->
+<?php } 
+else { 
+	// You're not allowed... you need to login.
+    echo $VM_LANG->_('DO_LOGIN') .'<br/><br/><br/>';
+    include(PAGEPATH.'checkout.login_form.php');
+} ?>

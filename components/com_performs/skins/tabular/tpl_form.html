@@ -1,0 +1,193 @@
+<div id="overDiv" style="position:absolute; visibility:hidden; z-index:10000;"></div>
+<style type="text/css" media="print">
+.noprint { 
+  display: none; 
+ } 
+.formContainer {
+  border: none;
+}
+.pagetable {
+  width:500px;
+}
+.tabber{display:none;} .tabbernav{display:none;}
+</style>
+
+<STYLE type="text/css" media="screen">
+.performs_error{
+/*	color:#FF0000*/
+	color: firebrick;
+  padding: 12pt;
+  background-color: wheat;
+}
+
+.performs_required{
+	color:#FF0000
+}
+.performs_help{
+}
+
+#security_try{
+	//width:300px;
+}
+
+.tabber{display:none;} .tabbernav{display:none;}
+
+
+/*
+DevelopAid Style Additions
+2006-11-7 17:22
+*/
+
+.captioncell {
+vertical-align: top;
+}
+.elementcell {
+vertical-align: top;
+}
+.helpcell {
+padding-left: 12pt;
+}
+.rulerow {
+/*background-color: rgb(240,220,230);*/
+background-color: lightsteelblue;
+}
+.titlerowtitle {
+color: maroon;
+font-size: large;
+font-family: serif;
+}
+.printtextarea {
+border: thin black solid;
+border-color: lightsteelblue; 
+width: 292pt;
+height: 96pt;;
+}
+
+.formContainer {
+  border: solid thin lightgray;
+}
+.pagetable {
+  width: {TAG_FORM_WIDTH};
+}
+
+</STYLE>
+<style type="text/css">
+#frmSubmit {
+  width: {SUBMIT_IMAGE_WIDTH}px;
+  height: {SUBMIT_IMAGE_HEIGHT}px;
+  padding: {SUBMIT_IMAGE_HEIGHT}px 0 0;
+  margin: 0;
+  margin-right: 12px;
+  border: 0;
+  background: transparent url({SUBMIT_IMAGE}) no-repeat center top;
+  overflow: hidden;
+  cursor: pointer; /* hand-shaped cursor */
+  cursor: hand; /* for IE 5.x */
+}
+form>#frmSubmit { /* For non-IE browsers*/
+  height: 0px;
+}
+#frmReset {
+  width: {RESET_IMAGE_WIDTH}px;
+  height: {RESET_IMAGE_HEIGHT}px;
+  padding: {RESET_IMAGE_HEIGHT}px 0 0;
+  margin: 0;
+  margin-right: 12px;
+  border: 0;
+  background: transparent url({RESET_IMAGE}) no-repeat center top;
+  overflow: hidden;
+  cursor: pointer; /* hand-shaped cursor */
+  cursor: hand; /* for IE 5.x */
+}
+form>#frmReset { /* For non-IE browsers*/
+  height: 0px;
+}
+input.button {
+  cursor: pointer; /* hand-shaped cursor */
+  cursor: hand; /* for IE 5.x */
+}
+h1.pfFormTitle {
+display: {TAG_FORM_TITLE_DISPLAY};
+}
+</style>
+<script language="JavaScript1.2" src="{LIVE_SITE}/includes/js/joomla.javascript.js" type="text/javascript"></script>
+<script language="JavaScript1.2" src="{LIVE_SITE}/includes/js/mambojavascript.js" type="text/javascript"></script>	
+
+<!-- 	<table class="contentpane"> -->
+<h1 class="pfFormTitle">{TAG_FORM_TITLE}</h1>
+	<table class="pagetable">
+<!--	<table style="width:500px"> -->
+  <th><tr class="noprint"><td>
+  {CONTROL_BUTTONS}
+  </td></tr></th>
+<tfoot><tr class="noprint"><td>{CONTROL_BUTTONS}</td></tr></tfoot>
+  <tbody>
+  <tr><td class="formContainer">
+  <table>
+  <tr><td valign="top">
+	
+		<!-- IF formimg -->
+			<img src="{FORM_IMAGE}" align="left" alt="Form image" {TAG_IMAGESTYLE} />
+		<!-- ENDIF formimg -->
+  <!--  </td></tr><tr><td> -->
+		<div style="margin:5px;">{FORM_MESSAGE}</div>
+	</td></tr>
+<!--	</table> -->
+		<tr><td>
+    
+<form enctype="multipart/form-data" method="{TAG_METHOD}" action="{TAG_ACTION}" name="{TAG_NAME}" id="{TAG_FORMID}">
+<!--<div class="tabber" id="performTabs">
+    <div class="tabbertab"> -->
+<div >
+    <div >
+    <table>
+<!-- BEGIN formRow -->
+<tr>
+<td class="captioncell"{TAG_COLSPAN}>
+        <div class="formFields" style="vertical-align:middle; ">
+        {TAG_FIELD_CAPTION}{TAG_REQUIRED_FIELD_MARK}
+        </div>
+</td><td class="elementcell" align="left">
+<!--        <span class="formFields">-->
+        {TAG_FIELD_CONTENT}</td><td><div class="helpcell">
+        {TAG_HELP_MESSAGE}<!--</span>-->
+<!--        </span>-->
+        </div></td></tr><tr class="rulerow"><td colspan=3>{TAG_ERROR_MESSAGE}
+        </td></tr>
+        {PAGE_END_DIV}
+        {PAGE_BEGIN_DIV}
+<!-- END formRow -->
+
+<!-- IF secureimg -->
+<tr><td></td><td colspan="2" style="padding:2pt;">
+        <div style="float:left; vertical-align:middle">
+        	{TAG_SECUREIMAGE}
+        </div>	
+        <div class="formFields"  style="float:right">	
+        {TAG_SECUREIMAGE_INPUT}
+        {TAG_SECUREIMAGE_HELP}{TAG_SECUREIMAGE_ERROR}
+        </div>
+</td></tr>
+<!-- ENDIF secureimg -->
+
+<!-- IF posting -->
+<tr>
+  <td colspan="3">
+    <div class="formFields" align="right" style="padding-top:12pt;">
+        {TAG_SUBMIT_BUTTON}&nbsp;{TAG_RESET_BUTTON}
+        {TAG_HIDDEN_FIELDS}
+    </div>
+  </td>
+</tr>
+<!-- ENDIF posting -->
+        </table>
+    </div>
+</div>
+
+</form>
+</td></tr>
+</table></td></tr>
+</tbody>
+</table>
+
+{ACC_SCRIPT}

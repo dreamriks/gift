@@ -1,0 +1,118 @@
+[26-May-2011 23:32:08] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home2/giftjaip/public_html/test2/index.php:8) in /home2/giftjaip/public_html/test2/index.php on line 9
+[26-May-2011 23:32:08] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home2/giftjaip/public_html/test2/index.php:8) in /home2/giftjaip/public_html/test2/index.php on line 9
+[26-May-2011 23:37:33] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home2/giftjaip/public_html/test2/index.php:8) in /home2/giftjaip/public_html/test2/index.php on line 9
+[26-May-2011 23:37:33] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home2/giftjaip/public_html/test2/index.php:8) in /home2/giftjaip/public_html/test2/index.php on line 9
+[26-May-2011 23:38:49] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home2/giftjaip/public_html/test2/register.php on line 10
+[26-May-2011 23:43:28] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'giftjaip_naman'@'localhost' (using password: NO) in /home2/giftjaip/public_html/test2/register.php on line 10
+[26-May-2011 23:48:03] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home2/giftjaip/public_html/test2/index.php:8) in /home2/giftjaip/public_html/test2/index.php on line 9
+[26-May-2011 23:48:18] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home2/giftjaip/public_html/test2/index.php:8) in /home2/giftjaip/public_html/test2/index.php on line 9
+[26-May-2011 23:48:18] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home2/giftjaip/public_html/test2/index.php on line 49
+[26-May-2011 23:51:50] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home2/giftjaip/public_html/test2/index.php:8) in /home2/giftjaip/public_html/test2/index.php on line 9
+[26-May-2011 23:51:50] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home2/giftjaip/public_html/test2/index.php on line 49
+[26-May-2011 23:52:05] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home2/giftjaip/public_html/test2/index.php:8) in /home2/giftjaip/public_html/test2/index.php on line 9
+[26-May-2011 23:52:13] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home2/giftjaip/public_html/test2/index.php:8) in /home2/giftjaip/public_html/test2/index.php on line 9
+[26-May-2011 23:55:03] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home2/giftjaip/public_html/test2/index.php:12) in /home2/giftjaip/public_html/test2/index.php on line 17
+[26-May-2011 23:55:03] PHP Fatal error:  Call to undefined function  loginform() in /home2/giftjaip/public_html/test2/index.php on line 26
+[26-May-2011 23:56:31] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home2/giftjaip/public_html/test2/index.php:8) in /home2/giftjaip/public_html/test2/index.php on line 17
+[27-May-2011 00:47:12] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home2/giftjaip/public_html/test2/index.php:8) in /home2/giftjaip/public_html/test2/index.php on line 17
+[27-May-2011 00:47:12] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home2/giftjaip/public_html/test2/index.php:8) in /home2/giftjaip/public_html/test2/index.php on line 17
+[27-May-2011 00:55:49] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home2/giftjaip/public_html/test2/index.php:8) in /home2/giftjaip/public_html/test2/index.php on line 17
+[27-May-2011 00:55:49] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home2/giftjaip/public_html/test2/index.php:8) in /home2/giftjaip/public_html/test2/index.php on line 17
+[27-May-2011 03:33:37] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home2/giftjaip/public_html/test2/index.php:8) in /home2/giftjaip/public_html/test2/index.php on line 17
+[27-May-2011 03:33:37] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home2/giftjaip/public_html/test2/index.php:8) in /home2/giftjaip/public_html/test2/index.php on line 17
+[27-May-2011 03:51:39] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home2/giftjaip/public_html/test2/index.php:8) in /home2/giftjaip/public_html/test2/index.php on line 17
+[27-May-2011 03:51:40] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home2/giftjaip/public_html/test2/index.php:8) in /home2/giftjaip/public_html/test2/index.php on line 17
+[27-May-2011 04:17:12] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home2/giftjaip/public_html/test2/index.php:8) in /home2/giftjaip/public_html/test2/index.php on line 17
+[27-May-2011 04:22:06] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home2/giftjaip/public_html/test2/index.php:8) in /home2/giftjaip/public_html/test2/index.php on line 17
+[27-May-2011 04:36:05] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home2/giftjaip/public_html/test2/index.php:8) in /home2/giftjaip/public_html/test2/index.php on line 9
+[27-May-2011 04:37:49] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home2/giftjaip/public_html/test2/index.php:7) in /home2/giftjaip/public_html/test2/index.php on line 8
+[27-May-2011 05:42:04] PHP Parse error:  syntax error, unexpected T_STRING in /home2/giftjaip/public_html/test2/index.php on line 44
+[27-May-2011 08:06:43] PHP Parse error:  syntax error, unexpected '<' in /home2/giftjaip/public_html/test2/list.php on line 25
+[27-May-2011 08:07:28] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home2/giftjaip/public_html/test2/list.php on line 25
+[27-May-2011 08:10:21] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home2/giftjaip/public_html/test2/list.php on line 25
+[27-May-2011 13:31:59] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home2/giftjaip/public_html/test2/list.php on line 27
+[27-May-2011 13:34:05] PHP Parse error:  syntax error, unexpected '?' in /home2/giftjaip/public_html/test2/list.php on line 27
+[27-May-2011 13:34:40] PHP Parse error:  syntax error, unexpected '=' in /home2/giftjaip/public_html/test2/list.php on line 27
+[27-May-2011 14:00:59] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home2/giftjaip/public_html/test2/list.php on line 27
+[27-May-2011 14:27:10] PHP Parse error:  syntax error, unexpected '"', expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home2/giftjaip/public_html/test2/edit.php on line 10
+[27-May-2011 14:30:40] PHP Parse error:  syntax error, unexpected '"', expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home2/giftjaip/public_html/test2/edit.php on line 10
+[27-May-2011 14:30:43] PHP Parse error:  syntax error, unexpected '"', expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home2/giftjaip/public_html/test2/edit.php on line 10
+[27-May-2011 14:30:45] PHP Parse error:  syntax error, unexpected '"', expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home2/giftjaip/public_html/test2/edit.php on line 10
+[27-May-2011 14:30:48] PHP Parse error:  syntax error, unexpected '"', expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home2/giftjaip/public_html/test2/edit.php on line 10
+[27-May-2011 14:33:06] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 11
+[27-May-2011 14:33:30] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 11
+[27-May-2011 14:35:50] PHP Parse error:  syntax error, unexpected '=' in /home2/giftjaip/public_html/test2/edit.php on line 11
+[27-May-2011 14:36:24] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 11
+[27-May-2011 14:45:55] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 11
+[27-May-2011 14:46:35] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 11
+[27-May-2011 14:46:37] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 11
+[27-May-2011 14:46:50] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 11
+[27-May-2011 14:48:30] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 11
+[27-May-2011 14:50:59] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 11
+[27-May-2011 14:56:31] PHP Parse error:  syntax error, unexpected '}' in /home2/giftjaip/public_html/test2/edit.php on line 21
+[27-May-2011 14:56:38] PHP Parse error:  syntax error, unexpected '}' in /home2/giftjaip/public_html/test2/edit.php on line 21
+[27-May-2011 14:56:59] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 11
+[27-May-2011 14:59:24] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 11
+[27-May-2011 15:20:27] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 10
+[27-May-2011 15:20:30] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 10
+[27-May-2011 15:21:06] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 10
+[27-May-2011 15:21:55] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 11
+[27-May-2011 15:28:35] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 11
+[27-May-2011 15:30:25] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 12
+[27-May-2011 15:31:01] PHP Fatal error:  Call to undefined function  mysql_fetch_rows() in /home2/giftjaip/public_html/test2/edit.php on line 12
+[27-May-2011 15:31:28] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 12
+[27-May-2011 15:40:15] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 12
+[27-May-2011 15:41:01] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 12
+[27-May-2011 15:49:28] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 13
+[27-May-2011 15:49:31] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 13
+[27-May-2011 15:49:59] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 13
+[27-May-2011 15:50:02] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 13
+[27-May-2011 15:52:00] PHP Parse error:  syntax error, unexpected '"', expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home2/giftjaip/public_html/test2/edit.php on line 11
+[27-May-2011 15:52:32] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 13
+[27-May-2011 15:54:28] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 14
+[27-May-2011 15:55:20] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home2/giftjaip/public_html/test2/edit.php on line 11
+[27-May-2011 15:55:33] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home2/giftjaip/public_html/test2/edit.php on line 11
+[27-May-2011 15:56:05] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home2/giftjaip/public_html/test2/edit.php on line 11
+[27-May-2011 15:56:06] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home2/giftjaip/public_html/test2/edit.php on line 11
+[27-May-2011 15:56:24] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 14
+[27-May-2011 15:56:53] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 14
+[27-May-2011 15:56:56] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 14
+[27-May-2011 16:01:31] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 14
+[27-May-2011 16:01:34] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 14
+[27-May-2011 16:01:52] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 14
+[27-May-2011 16:03:24] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 14
+[27-May-2011 16:03:27] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 14
+[27-May-2011 16:06:24] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 14
+[27-May-2011 16:08:37] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 14
+[27-May-2011 16:08:51] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 14
+[27-May-2011 16:10:19] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 14
+[27-May-2011 16:14:58] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 14
+[27-May-2011 16:15:55] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 14
+[27-May-2011 16:16:30] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/giftjaip/public_html/test2/edit.php on line 16
+[27-May-2011 16:16:49] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 14
+[27-May-2011 16:18:44] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 14
+[27-May-2011 22:57:30] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 14
+[27-May-2011 22:57:53] PHP Warning:  mysql_fetch_row(): supplied argument is not a valid MySQL result resource in /home2/giftjaip/public_html/test2/edit.php on line 14
+[27-May-2011 23:08:14] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home2/giftjaip/public_html/test2/edit.php on line 12
+[27-May-2011 23:56:03] PHP Parse error:  syntax error, unexpected T_STRING in /home2/giftjaip/public_html/test2/update.php on line 10
+[27-May-2011 23:57:08] PHP Parse error:  syntax error, unexpected T_STRING in /home2/giftjaip/public_html/test2/update.php on line 10
+[27-May-2011 23:58:40] PHP Parse error:  syntax error, unexpected T_STRING in /home2/giftjaip/public_html/test2/update.php on line 11
+[28-May-2011 00:01:41] PHP Parse error:  syntax error, unexpected $end in /home2/giftjaip/public_html/test2/update.php on line 14
+[28-May-2011 00:01:47] PHP Parse error:  syntax error, unexpected $end in /home2/giftjaip/public_html/test2/update.php on line 14
+[28-May-2011 00:04:53] PHP Parse error:  syntax error, unexpected $end in /home2/giftjaip/public_html/test2/update.php on line 16
+[28-May-2011 00:14:02] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home2/giftjaip/public_html/test2/update.php on line 18
+[28-May-2011 01:15:20] PHP Parse error:  syntax error, unexpected T_STRING in /home2/giftjaip/public_html/assgn/index.php on line 44
+[28-May-2011 01:15:26] PHP Parse error:  syntax error, unexpected T_STRING in /home2/giftjaip/public_html/assgn/index.php on line 44
+[28-May-2011 01:16:32] PHP Parse error:  syntax error, unexpected T_STRING in /home2/giftjaip/public_html/assgn/index.php on line 44
+[28-May-2011 01:19:52] PHP Parse error:  syntax error, unexpected T_STRING in /home2/giftjaip/public_html/assgn/index.php on line 61
+[28-May-2011 01:39:49] PHP Parse error:  syntax error, unexpected '>' in /home2/giftjaip/public_html/assgn/index.php on line 61
+[28-May-2011 01:40:32] PHP Parse error:  syntax error, unexpected '>' in /home2/giftjaip/public_html/assgn/index.php on line 61
+[28-May-2011 01:47:56] PHP Parse error:  syntax error, unexpected '>' in /home2/giftjaip/public_html/assgn/userlist.php on line 10
+[28-May-2011 01:59:53] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/giftjaip/public_html/assgn/edit.php on line 4
+[28-May-2011 03:42:18] PHP Parse error:  syntax error, unexpected '=' in /home2/giftjaip/public_html/assgn/userlist.php on line 8
+[28-May-2011 03:42:41] PHP Parse error:  syntax error, unexpected '=' in /home2/giftjaip/public_html/assgn/userlist.php on line 8
+[28-May-2011 03:52:50] PHP Parse error:  syntax error, unexpected '=' in /home2/giftjaip/public_html/assgn/userlist.php on line 8
+[28-May-2011 03:54:13] PHP Parse error:  syntax error, unexpected T_ECHO in /home2/giftjaip/public_html/assgn/userlist.php on line 9
+[28-Jul-2011 13:57:44] PHP Parse error:  syntax error, unexpected ';' in /home2/giftjaip/public_html/assgn/graph.php on line 55
+[28-Jul-2011 13:59:29] PHP Parse error:  syntax error, unexpected ';' in /home2/giftjaip/public_html/assgn/graph.php on line 55
+[28-Jul-2011 13:59:31] PHP Parse error:  syntax error, unexpected ';' in /home2/giftjaip/public_html/assgn/graph.php on line 55

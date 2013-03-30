@@ -1,0 +1,373 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Registration Form for Personal Banking</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<style type="text/css"><!--
+.style2 {color: #FF0000}
+.style3 {font-weight: bold}
+.style6 {color: #FF0000; font-size: 10px; }
+.style8 {color: #FF0000; font-size: 12px; }
+body {
+	background-color: #FFFFFF;
+	margin-left: 30px;
+}
+.style12 {color: #FF0000; font-style: italic; }
+.style13 {color: #FF0000}
+.style14 {
+	color: #663300;
+	font-weight: bold;
+}
+body,td,th {
+	color: #660000;
+}
+--></style>
+<script language="javascript">
+
+function Cancel()
+{
+	document.RegPersonalForm.action="index.php";
+	//document.RegPersonalForm.submit();
+}
+
+function check()
+{
+if (isEmpty(document.RegPersonalForm.tf_FirstName.value))
+{
+	alert("Please Enter your First Name.\nYou cannot leave this field empty");
+	document.RegPersonalForm.tf_FirstName.focus();
+}
+
+else
+if (isEmpty(document.RegPersonalForm.tf_DOB.value))
+{
+	alert("Please Enter your Date of Birth.\nYou cannot leave this field empty");
+document.RegPersonalForm.tf_DOB.focus();
+}
+
+else
+if (isDate(document.RegPersonalForm.tf_DOB.value)==false)
+{
+		document.RegPersonalForm.tf_DOB.focus();
+		document.RegPersonalForm.tf_DOB.value="";
+}
+
+else
+if (isEmpty(document.RegPersonalForm.tf_Mobile.value))
+{
+	alert("Please Enter your Mobile no.\nYou cannot leave this field empty");
+document.RegPersonalForm.ta_Address.focus();
+}
+else
+		if (checkInternationalPhone(document.RegPersonalForm.tf_Mobile.value)==false)
+		{
+		alert("Please Enter a Valid Mobile Number")
+		document.RegPersonalForm.tf_Mobile.focus()
+		document.RegPersonalForm.tf_Mobile.value="";
+		}
+
+else
+if (echeck(document.RegPersonalForm.tf_Email.value)==false)
+{
+document.RegPersonalForm.tf_Email.focus();
+document.RegPersonalForm.tf_Email.value="";
+}
+
+else
+if (isEmpty(document.RegPersonalForm.tf_AccPwd.value))
+{
+	alert("Please enter an account password.\nYou cannot leave this field empty.");
+document.RegPersonalForm.tf_AccPwd.focus();
+}
+
+else
+if((document.RegPersonalForm.tf_AccPwd.value.length)<6)
+{
+	alert("Account Password must be of Minimum 6 charactors.\nPlease re enter it.");
+		document.RegPersonalForm.tf_AccPwd.focus();
+		document.RegPersonalForm.tf_AccPwd.value="";
+}
+
+else
+if (isEmpty(document.RegPersonalForm.tf_ReAccPwd.value))
+{
+	alert("Please Re enter your Account Password.\nYou cannot leave this field empty.");
+document.RegPersonalForm.tf_ReAccPwd.focus();
+}
+
+else
+if((document.RegPersonalForm.tf_AccPwd.value)!=(document.RegPersonalForm.tf_ReAccPwd.value))
+{
+	alert("Account Password not Matched.\nPlease re enter it.");
+		document.RegPersonalForm.tf_ReAccPwd.focus();
+		document.RegPersonalForm.tf_ReAccPwd.value="";
+}
+else{
+document.RegPersonalForm.method="get";
+document.RegPersonalForm.action="register.php";
+document.RegPersonalForm.submit();
+}}
+
+
+function isEmpty(str)
+{
+	if(str=="")
+	return true;
+}
+
+function echeck(str) {
+if (!isEmpty(str))
+{
+		var at="@"
+		var dot="."
+		var lat=str.indexOf(at)
+		var lstr=str.length
+		var ldot=str.indexOf(dot)
+		if (str.indexOf(at)==-1){
+		   alert("Invalid E-mail ID")
+		   return false
+		}
+
+		if (str.indexOf(at)==-1 || str.indexOf(at)==0 || str.indexOf(at)==lstr){
+		   alert("Invalid E-mail ID")
+		   return false
+		}
+
+		if (str.indexOf(dot)==-1 || str.indexOf(dot)==0 || str.indexOf(dot)==lstr){
+		    alert("Invalid E-mail ID")
+		    return false
+		}
+
+		 if (str.indexOf(at,(lat+1))!=-1){
+		    alert("Invalid E-mail ID")
+		    return false
+		 }
+
+		 if (str.substring(lat-1,lat)==dot || str.substring(lat+1,lat+2)==dot){
+		    alert("Invalid E-mail ID")
+		    return false
+		 }
+
+		 if (str.indexOf(dot,(lat+2))==-1){
+		    alert("Invalid E-mail ID")
+		    return false
+		 }
+		
+		 if (str.indexOf(" ")!=-1){
+		    alert("Invalid E-mail ID")
+		    return false
+		 }
+
+ 		 return true					
+	}
+}
+
+var digits = "0123456789";
+// non-digit characters which are allowed in phone numbers
+var phoneNumberDelimiters = "()- ";
+// characters which are allowed in international phone numbers
+// (a leading + is OK)
+var validWorldPhoneChars = phoneNumberDelimiters + "+";
+// Minimum no of digits in an international phone no.
+var minDigitsInIPhoneNumber = 10;
+
+function isInteger(s)
+{   var i;
+    for (i = 0; i < s.length; i++)
+    {
+        // Check that current character is number.
+        var c = s.charAt(i);
+        if (((c < "0") || (c > "9"))) return false;
+    }
+    // All characters are numbers.
+    return true;
+}
+function trim(s)
+{   var i;
+    var returnString = "";
+    // Search through string's characters one by one.
+    // If character is not a whitespace, append to returnString.
+    for (i = 0; i < s.length; i++)
+    {
+        // Check that current character isn't whitespace.
+        var c = s.charAt(i);
+        if (c != " ") returnString += c;
+    }
+    return returnString;
+}
+function stripCharsInBag(s, bag)
+{   var i;
+    var returnString = "";
+    // Search through string's characters one by one.
+    // If character is not in bag, append to returnString.
+    for (i = 0; i < s.length; i++)
+    {
+        // Check that current character isn't whitespace.
+        var c = s.charAt(i);
+        if (bag.indexOf(c) == -1) returnString += c;
+    }
+    return returnString;
+}
+
+function checkInternationalPhone(strPhone){
+if (!isEmpty(strPhone))
+{
+var bracket=3
+strPhone=trim(strPhone)
+if(strPhone.indexOf("+")>1) return false
+if(strPhone.indexOf("-")!=-1)bracket=bracket+1
+if(strPhone.indexOf("(")!=-1 && strPhone.indexOf("(")>bracket)return false
+var brchr=strPhone.indexOf("(")
+if(strPhone.indexOf("(")!=-1 && strPhone.charAt(brchr+2)!=")")return false
+if(strPhone.indexOf("(")==-1 && strPhone.indexOf(")")!=-1)return false
+s=stripCharsInBag(strPhone,validWorldPhoneChars);
+return (isInteger(s) && s.length >= minDigitsInIPhoneNumber);
+}
+}
+
+var dtCh= "/";
+var minYear=1900;
+var maxYear=2100;
+
+function isInteger(s){
+	var i;
+    for (i = 0; i < s.length; i++){
+        // Check that current character is number.
+        var c = s.charAt(i);
+        if (((c < "0") || (c > "9"))) return false;
+    }
+    // All characters are numbers.
+    return true;
+}
+
+function stripCharsInBag(s, bag){
+	var i;
+    var returnString = "";
+    // Search through string's characters one by one.
+    // If character is not in bag, append to returnString.
+    for (i = 0; i < s.length; i++){
+        var c = s.charAt(i);
+        if (bag.indexOf(c) == -1) returnString += c;
+    }
+    return returnString;
+}
+
+function daysInFebruary (year){
+	// February has 29 days in any year evenly divisible by four,
+    // EXCEPT for centurial years which are not also divisible by 400.
+    return (((year % 4 == 0) && ( (!(year % 100 == 0)) || (year % 400 == 0))) ? 29 : 28 );
+}
+function DaysArray(n) {
+	for (var i = 1; i <= n; i++) {
+		this[i] = 31
+		if (i==4 || i==6 || i==9 || i==11) {this[i] = 30}
+		if (i==2) {this[i] = 29}
+   }
+   return this
+}
+
+function isDate(dtStr){
+	var daysInMonth = DaysArray(12)
+	var pos1=dtStr.indexOf(dtCh)
+	var pos2=dtStr.indexOf(dtCh,pos1+1)
+	var strDay=dtStr.substring(0,pos1)
+	var strMonth=dtStr.substring(pos1+1,pos2)
+	var strYear=dtStr.substring(pos2+1)
+	strYr=strYear
+	if (strDay.charAt(0)=="0" && strDay.length>1) strDay=strDay.substring(1)
+	if (strMonth.charAt(0)=="0" && strMonth.length>1) strMonth=strMonth.substring(1)
+	for (var i = 1; i <= 3; i++) {
+		if (strYr.charAt(0)=="0" && strYr.length>1) strYr=strYr.substring(1)
+	}
+	month=parseInt(strMonth)
+	day=parseInt(strDay)
+	year=parseInt(strYr)
+	if (pos1==-1 || pos2==-1){
+		alert("The date format should be : dd/mm/yyyy")
+		return false
+	}
+	if (strMonth.length<1 || month<1 || month>12){
+		alert("Please enter a valid month")
+		return false
+	}
+	if (strDay.length<1 || day<1 || day>31 || (month==2 && day>daysInFebruary(year)) || day > daysInMonth[month]){
+		alert("Please enter a valid day")
+		return false
+	}
+	if (strYear.length != 4 || year==0 || year<minYear || year>maxYear){
+		alert("Please enter a valid 4 digit year between "+minYear+" and "+maxYear)
+		return false
+	}
+	if (dtStr.indexOf(dtCh,pos2+1)!=-1 || isInteger(stripCharsInBag(dtStr, dtCh))==false){
+		alert("Please enter a valid date")
+		return false
+	}
+return true
+}
+
+
+</script>
+<link rel="stylesheet" href="3col_leftNav.css" type="text/css" />
+</head>
+<body bgcolor="#66FF00">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<h1 id="siteName"></h1></td></tr></tbody></table>
+<form name="RegPersonalForm">
+<table width="752" border="0" align="center">
+<tbody>
+<tr>
+<td width="738" height="34">
+<div align="center"><strong><span class="style13"><font size="6">Registration Form </font></span></strong></div></td></tr></tbody></table>
+<p align="center">Fields marked with <span class="style2">*</span> are compulsary to be filled </p>
+<table width="635" height="270" border="2" align="center" cellpadding="0" cellspacing="0" bordercolor="#0033FF">
+<tbody>
+<tr>
+<td width="134">
+<div align="justify"><strong>Name <span class="style2">*</span></strong></div></td>
+<td width="64"><strong>:</strong></td>
+<td width="427">
+<div align="left"><input name="tf_FirstName" type="text" id="tf_FirstName" size="40" maxlength="50" tabindex="1" ;="" /></div></td></tr>
+<tr>
+<td>
+<div align="justify"><strong>D.O.B. <span class="style2">*</span></strong></div></td>
+<td>
+<div align="left"><strong>:</strong></div></td>
+<td bordercolor="#0033FF"><label><input name="tf_DOB" type="text" id="tf_DOB" size="15" maxlength="10" tabindex="3" ;="" /></label> <span class="style6">(<strong>DD/MM/YYYY</strong>)</span>	 </td></tr>
+<tr>
+<td>
+<div align="justify"><strong>Mobile No.<span class="style2">*</span> </strong></div></td>
+<td>
+<div align="left"><strong>:</strong></div></td>
+<td bordercolor="#0033FF"><input name="tf_Mobile" type="text" id="tf_Mobile" tabindex="9" value="+91-" size="40" maxlength="14" /><span class="style8">(<strong>Country Code-Phone No</strong>.)</span></td></tr>
+<tr>
+<td>
+<div align="justify"><strong>E-Mail</strong></div></td>
+<td><strong>:&nbsp;&nbsp;</strong></td>
+<td>
+<div align="left"><input name="tf_Email" type="text" id="tf_Email" size="40" tabindex="10" /><span class="style8">(<strong>abc@example.com</strong>)</span></div></td></tr>
+<tr>
+<td>
+<div align="justify"><strong>Account Password<span class="style2">*</span></strong></div></td>
+<td><strong>:</strong></td>
+<td><input name="tf_AccPwd" type="password" id="tf_AccPwd" size="40" tabindex="13" ;="" /></td></tr>
+<tr>
+<td>
+<div align="justify"><strong>&nbsp;Retype Password<span class="style2">*</span></strong></div></td>
+<td><strong>:</strong></td>
+<td>
+<div align="left"><input name="tf_ReAccPwd" type="password" id="tf_ReAccPwd" size="40" tabindex="14" ;="" /></div></td></tr></tbody></table>
+<p>&nbsp;</p>
+<table width="749" border="0" align="center">
+<tbody>
+<tr>
+<td width="228"><label> <input name="Submit" type="button" class="style3" id="btn_Submit" value=" Submit " tabindex="21" onclick="check()" ;="" /></label></td>
+<td width="241">
+<div align="center"><input name="btn_Submit2" type="reset" class="style3" id="btn_Submit2" value=" Clear " tabindex="22" /></div></td>
+<td width="258">
+<div align="center"><input name="btn_Submit3" type="submit" class="style3" id="btn_Submit3" onclick="Cancel()" value=" Cancel " tabindex="23" /></div></td></tr></tbody></table>
+<p>&nbsp;</p></form>
+</body>
+</html>

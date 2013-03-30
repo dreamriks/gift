@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<channel>
+ <item>
+			<link>http://giftjaipur.com/index.php?page=shop.product_details&amp;flypage=flypage_images.tpl&amp;product_id=67&amp;category_id=10&amp;option=com_virtuemart&amp;Itemid=11</link><image>http://giftjaipur.com/components/com_virtuemart/shop_image/product/Send_Special_Gif_4d8852f78497c.jpg</image><title>Send Special Gifts for Special people</title>
+		</item> <item>
+			<link>http://giftjaipur.com/index.php?page=shop.product_details&amp;flypage=flypage_images.tpl&amp;product_id=66&amp;category_id=10&amp;option=com_virtuemart&amp;Itemid=11</link><image>http://giftjaipur.com/components/com_virtuemart/shop_image/product/Secure_and_Easie_4d8852ad556e3.jpg</image><title>Secure and Easiest Online Gift Delivery System</title>
+		</item> <item>
+			<link>http://giftjaipur.com/index.php?page=shop.product_details&amp;flypage=flypage_images.tpl&amp;product_id=69&amp;category_id=10&amp;option=com_virtuemart&amp;Itemid=11</link><image>http://giftjaipur.com/components/com_virtuemart/shop_image/product/On_time_delivery_4d88546f32ebd.jpg</image><title>On time delivery Guranteed</title>
+		</item> <item>
+			<link>http://giftjaipur.com/index.php?page=shop.product_details&amp;flypage=flypage_images.tpl&amp;product_id=68&amp;category_id=10&amp;option=com_virtuemart&amp;Itemid=11</link><image>http://giftjaipur.com/components/com_virtuemart/shop_image/product/Fresh_Flowers_at_4d885422afd53.jpg</image><title>Fresh Flowers at very Reasonable cost</title>
+		</item>
+	</channel>
+	<config>	
+		<roundCorner>0</roundCorner>
+		<autoPlayTime>8</autoPlayTime>
+		<isHeightQuality>false</isHeightQuality>
+		<blendMode>normal</blendMode>
+		<transDuration>1</transDuration>
+		<windowOpen>_blank</windowOpen>
+		<btnSetMargin>auto 5 5 auto</btnSetMargin>
+		<btnDistance>20</btnDistance>
+		<titleBgColor>0x000000</titleBgColor>
+		<titleTextColor>0xffffff</titleTextColor>
+		<titleBgAlpha>.4</titleBgAlpha>
+		<titleMoveDuration>1</titleMoveDuration>
+		<btnAlpha>.4</btnAlpha>	
+		<btnTextColor>0xffffff</btnTextColor>	
+		<btnDefaultColor>0x1B3433</btnDefaultColor>
+		<btnHoverColor>0xff9900</btnHoverColor>
+		<btnFocusColor>0xff6600</btnFocusColor>
+		<changImageMode>click</changImageMode>
+		<isShowBtn>true</isShowBtn>
+		<isShowTitle>true</isShowTitle>
+		<randomOrder>false</randomOrder>
+		<scaleMode>noScale</scaleMode>
+		<transform>blur</transform>
+		<isShowAbout>false</isShowAbout>
+		<titleFont></titleFont>
+		<titleFontSize>14</titleFontSize>
+	</config>
+</data>

@@ -1,0 +1,42 @@
+/**
+* @Enterprise:	S&S Media Solutions
+* @author:	 Yannick Spang
+* @url:	 http://www.joomla-virtuemart-designs.com
+* @copyright:	Copyright (C) 2008 - 2009 S&S Media Solutions
+* @license GNU/GPL, see on http://www.gnu.org/licenses/gpl-2.0.html
+* @product:	SSMedia - Latest Virtuemart Reviews
+*/
+
+.ssmed_latest_vm_reviews_main {
+	padding-bottom: 4px;
+	padding-top: 4px;
+	border-bottom: 1px dotted;
+	}
+
+.ssmed_latest_vm_reviews_product {
+	padding-left: 4px;
+	}
+
+.ssmed_latest_vm_reviews_product a {
+	font-weight:bold;
+	}
+	
+.ssmed_latest_vm_reviews_comment {
+	padding-left: 4px;
+	}
+	
+.ssmed_latest_vm_reviews_reviewlink {
+	text-align: right;
+	}
+	
+.ssmed_latest_vm_reviews_support {
+	margin: 4px 0 0 3px;
+	text-align: left;
+	}
+
+.ssmed_latest_vm_reviews_support a,
+.ssmed_latest_vm_reviews_support a:hover {
+	font: 10px Tahoma;
+	color: #eee;
+	cursor: text;
+	}

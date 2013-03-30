@@ -1,0 +1,141 @@
+.ja-slidewrap {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.ja-slide-main-wrap {
+	position: relative;
+	overflow: hidden;
+}
+
+.ja-slide-main {
+	position: absolute;
+	z-index: 1;
+}
+
+.ja-slide-item {
+	display: block;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	margin: 0;
+}
+
+.ja-slide-item img {
+	background: #000000;
+	border: 1px solid #1C1C1C;
+	padding: 4px;
+}
+
+.ja-slide-thumbs-wrap {
+	position: relative;
+	clear: both;
+	overflow: hidden;
+}
+
+.ja-slide-thumbs, .ja-slide-thumbs-mask, .ja-slide-thumbs-handles {
+	position: absolute;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	width: 5000px;
+}
+
+.ja-slide-descs {
+	display: none;	
+}
+
+.ja-slide-thumb, .ja-slide-thumbs-handles span {
+	display: block;
+	margin: 0;
+	float: left;
+	cursor: pointer;
+}
+
+.ja-slide-thumbs-handles span {
+	background: url(thumb_invisible.gif) no-repeat;
+}
+
+.ja-slide-thumbs-mask-left,
+.ja-slide-thumbs-mask-right,
+.ja-slide-thumbs-mask-center {
+	float: left;
+}
+
+.ja-slide-thumbs-mask-left, .ja-slide-thumbs-mask-right{
+	background: #000000;
+}
+
+.but_prev, .but_next {
+	background: #000000;
+	position: absolute;
+	top: 0;
+	z-index: 99;
+}
+
+.but_prev {
+	background: url(arrow-l.gif) no-repeat right center;
+	left: 0;
+}
+.but_prev:hover, .but_next:hover {
+	cursor: pointer;
+}
+
+.but_next {
+	background: url(arrow-r.gif) no-repeat left center;
+	right: 0;
+}
+.maskDesc {
+	display: block;
+	background: #000000;
+	position: absolute;
+	z-index: 100;
+	cursor: pointer;
+}
+
+.maskDesc .ja-slide-desc {
+	padding: 20px 40px;
+	color: #CCCCCC;
+	font-size: 150%;
+}
+
+.maskDesc .ja-slide-desc br {
+	display: none;
+}
+
+.maskDesc .ja-slide-desc h3 {
+	margin: 0;
+	padding: 0;
+}
+
+.maskDesc a.readon {
+	background: url(arrow-ri-hover.gif) no-repeat right 10px;
+	bottom: 10px;
+	color: #810C46;
+	display: block;
+	font-weight: bold;
+	font-size: 100%;
+	position: absolute;
+	padding: 3px 10px 3px 0;
+	right: 20px;
+}
+
+.maskDesc a.readon:hover, .maskDesc a.readon:active, .maskDesc a.readon:focus {
+	background: url(arrow-ri.gif) no-repeat right 10px;
+	color: #FFFFFF;
+}
+
+.ja-slide-buttons {
+	z-index: 900;
+}
+
+.ja-slide-buttons span {
+	background: #000000;
+	color: #FFFFFF;
+	display: block;
+	float: left;
+	margin-right: 5px;
+	padding: 2px 5px;
+	cursor: pointer;
+}

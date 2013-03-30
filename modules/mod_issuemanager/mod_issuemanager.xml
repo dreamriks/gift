@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+        <name>Issue Manager</name>
+        <creationDate>January 2010</creationDate>
+        <author>Luis Martin</author>
+        <authorEmail>luismartinsev@gmail.com</authorEmail>
+        <authorUrl>http://www.fast-forward.es</authorUrl>
+        <copyright>Copyright (C) 2010</copyright>
+        <license>GNU/GPL</license>
+        <!--  The version string is recorded in the components table -->
+        <version>1.0.1</version>
+        <description>DESCMODISSUEMANAGER</description>
+
+        <!-- Site Main File Copy Section -->
+        <files>
+                <filename module="mod_issuemanager">mod_issuemanager.php</filename>
+                <filename>index.html</filename>
+                <filename>helper.php</filename>
+                <folder>tmpl</folder>
+        </files>
+
+        <!-- Site Main Language File Copy Section -->
+        <languages folder="languages">
+                <language tag="en-GB">en-GB.mod_issuemanager.ini</language>
+                <language tag="es-ES">es-ES.mod_issuemanager.ini</language>
+        </languages>
+</install>

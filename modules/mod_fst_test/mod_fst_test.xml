@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" client="site" method="upgrade">
+	<name>Freestyle Support: Testimonials</name>
+	<author>Freestyle Joomla</author>
+	<creationDate>2012 05 21</creationDate>
+	<version>1.9.1.1332</version>
+	<description>Module to list your testimonials</description>
+	<files>
+		<filename>mod_fst_test.xml</filename>
+		<filename module="mod_fst_test">mod_fst_test.php</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_fst_test.ini</language>
+	</languages>
+
+	<!-- Joomla 1.5 -->
+	<params addpath="/administrator/components/com_fst/elements">
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		<param name="prodid" type="sql" default="" label="Select Product" query="(SELECT -1 as id, 'All Products' as title) UNION (SELECT 0 as id, 'General Testimonials' as title) UNION (SELECT id, title FROM #__fst_prod ORDER BY ordering)" key_field="id" value_field="title" />
+		<param name="listtype" type="radio" default="0" label="Which Testimonials" description="Which testimonials, all or most recent ones">
+			<option value="1">Most Recent</option>
+			<option value="0">Random</option>
+		</param>
+		<param name="dispcount" type="text" size="3" default="3" label="Number of testimonials to display" description="How many testimonials to display" />
+		<param name="maxheight" type="text" size="5" default="0" label="Maximum Height" description="Maximum height of testimonials display. If larger than this, the display will scroll. Use 0 for auto height." />
+		<param name="show_more" type="radio" default="1" label="Show More Testimonials button" description="Show the more button">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_add" type="radio" default="1" label="Show Add Testimonial button" description="Show the add button">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="maxlength" type="text" size="5" default="150" label="Maximum length" description="Maximum number of characters to displa in a testimonial" />
+	</params>
+</install>

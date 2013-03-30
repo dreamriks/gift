@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install type="module" version="1.5.0">
+    <name>JA Slideshow2</name>
+    <creationDate>Jan 2009</creationDate>
+    <author>JoomlArt</author>
+    <copyright>GNU / GPL</copyright>
+    <authorEmail>webmaster@joomlart.com</authorEmail>
+    <authorUrl>http://www.joomlart.com</authorUrl>
+    <version>1.0.0</version>
+     <files>
+         <filename module="mod_jaslideshow2">mod_jaslideshow2.php</filename>
+         <filename module="mod_jaslideshow2">helper.php</filename>
+         <folder module="mod_jaslideshow2">assets</folder>
+         <folder module="mod_jaslideshow2">tmpl</folder>
+    </files>
+    <params>
+		<param name="folder" type="text" size="80" default="images/stories/fruit" label="Image folder" description="Path to images folder." />
+		<param name="startItem" type="text" default="0" label="Start Item" description="start Item" />
+
+		<param name="mainWidth" type="text" default="360" label="Main Item width" description="Main Item width" />
+		<param name="mainHeight" type="text" default="240" label="Main Item height" description="Main Item height" />
+		<param name="showdesc" type="list" default="" label="Show Description" description="Show/hide description?">
+			<option value="">No Description</option>
+			<option value="desc">Description only</option>
+			<option value="desc-readmore">Description with Readmore</option>
+		</param>
+		<param name="showdescwhen" type="list" default="mouseover" label="Show Description when" description="How to show description?">
+			<option value="always">Always</option>
+			<option value="mouseover">Mouse Over Image</option>
+			<option value="load">Image animated</option>
+		</param>
+		<param name="readmoretext" type="text" default="Readmore" label="Readmore Text" description="Text to display in Readmore button" />
+		
+		<param name="duration" type="text" default="400" label="Animation Duration" description="Main image animation duration" />
+		<param name="animation" type="list" default="fade" label="Animation Type" description="Animation effect you want to display">
+			<option value="move">Moving</option>
+			<option value="fade">Fading</option>
+			<!--option value="zoom">Zooming</option>
+			<option value="pan">Panning</option>
+			<option value="combo">Combo - Ken Burns Effect</option>
+			<option value="push">Pushing</option>
+			<option value="wipe">Wiping</option-->
+		</param>
+		<param name="effect" type="list" default="bounceOut" label="Effect" description="Animation effects. Used with Wipe/Push animation only.">
+			<option value="linear">Linear</option>
+			<option value="quadOut">Medium to Slow</option>
+			<option value="cubicOut">Fast to Slow</option>
+			<option value="quartOut">Very Fast to Slow</option>
+			<option value="quintOut">Uber Fast to Slow</option>
+			<option value="expoOut">Exponential Speed</option>
+			<option value="elasticOut">Elastic</option>
+			<option value="backIn">Back In</option>
+			<option value="backOut">Back Out</option>
+			<option value="backInOut">Back In and Out</option>
+			<option value="bounceOut">Bouncing</option>
+		</param>
+		<param name="container" type="list" default="0" label="Container Width" description="Only apply for Animation type Moving">
+			<option value="0">Fit to main image</option>
+			<option value="1">Full size</option>
+		</param>
+
+		<param name="navigation" type="list" default="" label="Navigation" description="Choose navigation type?">
+			<option value="">No</option>
+			<option value="number">Number</option>
+			<option value="thumbs">Thumbnails</option>
+		</param>
+		<param name="thumbWidth" type="text" default="60" label="Thumbnail Width" description="Thumbnail Width (If Navigation is Thumbnails)" />
+		<param name="thumbHeight" type="text" default="60" label="Thumbnail Height" description="Thumbnail Height (If Navigation is Thumbnails)" />
+		<param name="thumbSpace" type="text" default="3:3" label="Thumbnail Spacing" description="vSpace:hSpace in pixel" />
+		<param name="showItem" type="text" default="4" label="Number of thumbnails" description="Number of displayed thumbnail items (If Navigation is Thumbnails)" />		
+
+		<param name="control" type="list" default="no" label="Control buttons" description="Show control button?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="autoplay" type="list" default="0" label="Auto play" description="If yes, the slideshow will auto switch based on time interval?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="interval" type="text" default="5000" label="Interval" description="Time (in seconds) for next play/run" />
+		
+		<param name="thumbOpacity" type="text" default="0.8" label="Thumbnail opacity" description="Opacity for thumbnail" />
+		<param name="descOpacity" type="text" default="0.8" label="Description background opacity" description="Opacity for the description" />
+		<param name="overlapOpacity" type="text" default="0.4" label="Next/Prev Images opacity" description="Opacity for the displayed part of next/previous images" />
+
+		<param name="description" type="textarea" cols="50" rows="20" default="" label="Description for each Item" description="the description for each item" />
+    </params>
+</install>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+    <name>Verge Facebook Like Button</name>
+    <author>Max Neuvians</author>
+	<creationDate>April 22, 2010</creationDate>
+	<authorUrl>http://vergegraphics.com</authorUrl>
+    <version>1.0</version>
+    <licence>GNU/GPL http://www.gnu.org/licenses/gpl.html</licence>
+	<description>
+    	<![CDATA[Module to show facebook like button either in FBML or iframe]]>
+	</description>
+	
+    <files>
+        <filename module="mod_vergefacebooklike">mod_vergefacebooklike.php</filename>
+        <filename>index.html</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    
+    <params>
+    	<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+	<param name="@spacer" type="spacer" default="" label="" description="" />
+        <param name="output" type="radio" default="iframe" label="Output" description="How button is rendered">
+          <option value="iframe">iFrame (HTML)</option>
+          <option value="fbml">FBML</option>
+        </param>
+        <param name="@spacer" type="spacer" default="" label="" description="" />
+        <param name="autourl" type="radio" default="yes" label="Auto URL Discovery" description="Automatically use current page URL">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </param>
+        <param name="url" type="text" default="" label="If No, URL" description="What URL to use" size="40" />
+        <param name="@spacer" type="spacer" default="" label="" description="" />
+        <param name="layout" type="list" default="standard" label="Layout Style" description="What layout should the button have">
+          <option value="standard">Standard</option>
+          <option value="button_count">button_count</option>
+        </param>
+        <param name="show_faces" type="radio" default="yes" label="Show Faces" description="Show faces under button">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </param>
+        <param name="width" type="text" default="" label="Width" description="Width in pixels" size="5" />
+	<param name="height" type="text" default="" label="Height" description="Height in pixels" size="5" />
+        <param name="verb" type="list" default="like" label="Verb to display" description="What verb to use">
+          <option value="like">Like</option>
+          <option value="recommend">Recommend</option>
+        </param>
+        <param name="font" type="list" default="" label="Font" description="Font to use">
+          <option value=""></option>
+          <option value="arial">arial</option>
+          <option value="lucida grande">lucida grande</option>
+          <option value="segoe ui">segoe ui</option>
+          <option value="tahoma">tahoma</option>
+          <option value="trebuchet ms">trebuchet ms</option>
+          <option value="verdana">verdana</option>
+        </param>
+        <param name="color_scheme" type="list" default="light" label="Colour Scheme" description="What colour scheme to use">
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </param>
+	<param name="locale" type="text" default="en_GB" label="Language (iframe only ex. de_DE)" description="What language to use" />
+    </params>
+</install>

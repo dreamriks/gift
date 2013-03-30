@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Latest Virtuemart Reviews SSMedia</name>
+	<author>Yannick Spang</author>
+	<creationDate>March 2009</creationDate>
+	<copyright>S&amp;S Media Solutions</copyright>
+	<authorEmail>team@yagendoo.com</authorEmail>
+	<authorUrl>http://www.yagendoo.com</authorUrl>
+	<version>1.6</version>
+	<description>MODULE_DESC</description>
+	<files>
+		<filename module="mod_latest_VM_reviews">mod_latest_VM_reviews.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+    	<filename>tmpl/default.php</filename>
+    	<filename>tmpl/index.html</filename>
+    	<filename>tmpl/style.css</filename>
+    	<filename>tmpl/images/blue/0.png</filename>
+        <filename>tmpl/images/blue/1.png</filename>
+        <filename>tmpl/images/blue/2.png</filename>
+        <filename>tmpl/images/blue/3.png</filename>
+        <filename>tmpl/images/blue/4.png</filename>
+        <filename>tmpl/images/blue/5.png</filename>
+        <filename>tmpl/images/yellow/0.png</filename>
+        <filename>tmpl/images/yellow/1.png</filename>
+        <filename>tmpl/images/yellow/2.png</filename>
+        <filename>tmpl/images/yellow/3.png</filename>
+        <filename>tmpl/images/yellow/4.png</filename>
+        <filename>tmpl/images/yellow/5.png</filename>
+        <filename>tmpl/images/green/0.png</filename>
+        <filename>tmpl/images/green/1.png</filename>
+        <filename>tmpl/images/green/2.png</filename>
+        <filename>tmpl/images/green/3.png</filename>
+        <filename>tmpl/images/green/4.png</filename>
+        <filename>tmpl/images/green/5.png</filename>
+        <filename>tmpl/images/red/0.png</filename>
+        <filename>tmpl/images/red/1.png</filename>
+        <filename>tmpl/images/red/2.png</filename>
+        <filename>tmpl/images/red/3.png</filename>
+        <filename>tmpl/images/red/4.png</filename>
+        <filename>tmpl/images/red/5.png</filename>
+        <filename>tmpl/images/purple/0.png</filename>
+        <filename>tmpl/images/purple/1.png</filename>
+        <filename>tmpl/images/purple/2.png</filename>
+        <filename>tmpl/images/purple/3.png</filename>
+        <filename>tmpl/images/purple/4.png</filename>
+        <filename>tmpl/images/purple/5.png</filename>
+        <filename>tmpl/images/grey/0.png</filename>
+        <filename>tmpl/images/grey/1.png</filename>
+        <filename>tmpl/images/grey/2.png</filename>
+        <filename>tmpl/images/grey/3.png</filename>
+        <filename>tmpl/images/grey/4.png</filename>
+        <filename>tmpl/images/grey/5.png</filename>
+        <filename>tmpl/images/black/0.png</filename>
+        <filename>tmpl/images/black/1.png</filename>
+        <filename>tmpl/images/black/2.png</filename>
+        <filename>tmpl/images/black/3.png</filename>
+        <filename>tmpl/images/black/4.png</filename>
+        <filename>tmpl/images/black/5.png</filename>
+        <filename>tmpl/images/pink/0.png</filename>
+        <filename>tmpl/images/pink/1.png</filename>
+        <filename>tmpl/images/pink/2.png</filename>
+        <filename>tmpl/images/pink/3.png</filename>
+        <filename>tmpl/images/pink/4.png</filename>
+        <filename>tmpl/images/pink/5.png</filename>
+        <filename>tmpl/images/orange/0.png</filename>
+        <filename>tmpl/images/orange/1.png</filename>
+        <filename>tmpl/images/orange/2.png</filename>
+        <filename>tmpl/images/orange/3.png</filename>
+        <filename>tmpl/images/orange/4.png</filename>
+        <filename>tmpl/images/orange/5.png</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">languages/en-GB.mod_latest_VM_reviews.ini</language>
+		<language tag="de-DE">languages/de-DE.mod_latest_VM_reviews.ini</language>
+	</languages>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="MODULE_CLASS_SUFFIX" description="MODULE_CLASS_SUFFIX_DESC" />
+		<param name="limit" type="text" default="10" label="NUMBER_OF_REVIEWS" description="NUMBER_OF_REVIEWS_DESC" />
+		<param name="showusername" type="list" default="1" label="SHOW_USERNAME" description="SHOW_USERNAME_DESC">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+		<param name="showtitle" type="list" default="1" label="SHOW_TITLE" description="SHOW_TITLE_DESC">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+		<param name="showreview" type="list" default="1" label="SHOW_REVIEW" description="SHOW_REVIEW_DESC">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+		<param name="nameorusername" type="list" default="0" label="NAME_OR_USENAME" description="NAME_OR_USERNAME_DESC">
+			<option value="0">REALNAME</option>
+			<option value="1">USERNAME</option>
+		</param>		
+		<param name="showrating" type="list" default="1" label="SHOW_RATING" description="SHOW_RATING_DESC">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+		<param name="ratingstarcolor" type="list" default="yellow" label="RATING_STAR_COLOR" description="RATING_STAR_COLOR_DESC">
+			<option value="yellow">YELLOW</option>
+			<option value="red">RED</option>
+			<option value="blue">BLUE</option>
+			<option value="purple">PURPLE</option>
+			<option value="green">GREEN</option>
+			<option value="orange">ORANGE</option>
+			<option value="pink">PINK</option>
+			<option value="black">BLACK</option>
+			<option value="grey">GREY</option>
+		</param>
+		<param name="userrang" type="list" default="25" label="WHO_SEE_THE_LINKS" description="WHO_SEE_THE_LINKS_DESC" >
+			<option value="23">MANAGER</option>
+			<option value="24">ADMINISTRATOR</option>
+			<option value="25">SUPERADMINISTRATOR</option>
+		</param>	
+	</params>
+</install>

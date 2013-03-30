@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module" version="1.0.0">
+	<name>perForms Module</name>
+	<author>Developaid Dave - (Original: GWS - Revised by Digital Access, USA)</author>
+	<creationDate>April 2007</creationDate>
+	<copyright>(C) 2007 perForms.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>gstyles@gadsolutions.biz - digitalaccess@triad.rr.com</authorEmail>
+	<authorUrl>www.perForms.org.au - www.gadsolutions.biz - www.digitalaccessusa.com</authorUrl>
+	<version>2.4</version>
+	<description>Extract and display data from perForms.
+    </description>
+	<files>
+		<filename module="mod_performs">mod_performs.php</filename>
+		<filename module="mod_performs">mod_performs.xml</filename>
+ 	</files>
+ <params>
+  	<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" ></param>
+  	<param name="legend" type="text" default="" label="Legend" description="An additional header can be displayed: in Summary View is top of table header, in Report View is the legend." ></param>
+		<param name="width" type="text" default="inherit" label="Table Width" description="Css width attribute: eg 100%, 23%, 160pt, inherit" ></param>
+		<param name="display_mode" type="radio" default="S" label="Display Mode" description="Set the display mode.">
+			<option value="S">Summary View</option>
+			<option value="R">Report View</option>
+		</param>
+		<param name="show_sql" type="radio" default="0" label="Show the sql query in the results?" description="If 'Yes' then the query will appear on the page.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+	  </param>
+		<param name="sql_query" type="textarea" cols="50" rows="10" default="" label="SQL Query" description="The SQL Query to use. If this field is used, the fields below will be ignored." ></param>
+		<param name="form_id" type="text" default="1" label="Form ID" description="ID of the form to display. &lt;br /&gt;If you use this field, you should not use the &quot;SQL Query&quot; field. Please check the fields below." ></param>
+		<param name="item_list" type="textarea" cols="30" rows="10" default="*" label="Item List" description="Comma-separated list of item names." ></param>
+		<param name="argument" type="text" default="" label="Arguments for the Sql WHERE clause" description="Enter your argument used in the where clause. Some arguments need to be enclosed in '  ' .&lt;br /&gt;&lt;strong&gt; Don't type WHERE, the perForms module will insert that automatically.&lt;/strong&gt;" ></param>
+		<param name="hdrone" type="text" default="" label="Limit number of rows to display" description="Enter a number to display that number of rows IE 10  or 25  etc." ></param>
+		<param name="hdrtwo" type="text" default="" label="Sort by Field name" description="Enter the name of the field that you wish to sort by IE: if you wish to sort by users enter 'users'. Note must be enclosed by '  ' " ></param>
+		<param name="hdrthree" type="text" default="ASC" label="Sort = ASC or DESC " description="Enter ASC or DESC." ></param>
+  </params>
+</mosinstall>

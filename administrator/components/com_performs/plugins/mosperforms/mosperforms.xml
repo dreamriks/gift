@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall version="1.0.0" type="mambot" group="content">
+	<name>mosPerforms</name>
+	<creationDate>March 28, 2007</creationDate>
+	<author>Implano Multimedia</author>
+	<copyright>(c)2007 Implano Multimedia</copyright>
+	<authorEmail>info@implano.com</authorEmail>
+	<authorUrl>http://www.implano.com</authorUrl>
+	<version>1.0.1</version>
+	<description>
+          Usage: {mosperforms formid=X}  where X is the ID of the form.
+	  Remeber to PUBLISH the mambot before using it.
+	</description>
+	<files>
+		<filename mambot="mosperforms">mosperforms.php</filename>
+	</files>
+	<params/>
+</mosinstall>
+

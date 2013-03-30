@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <params>
+    <param type="radio" name="virtuemart" default="0" label="Are You using VirtueMart e-commerce solution?" description="Please select 'yes' if you have VirtueMart installed and you want to use it together with Issue Manager" >
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </param>
+    <param type="text" name="currency_symbol" size="3" label="Currency Symbol:" default="€" description="Please enter the currency symbol you want to use, e.g.: $, €, USD, EUR" />
+    <param name="send_email" type="radio" default="0" label="Send e-mail Notifications?:" description="If 'yes' is selected, every time a new ticket is created, or a new post of the ticket is sent, the opposite part will be notified with an e-mail.">
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </param>
+    <param name="date_format" type="list" default="4" label="Date Format:" description="The date format to be displayed, like the examples shown">
+        <option value="0">Monday, 18 January 2010</option>
+        <option value="1">Mon, 18 Jan 2010</option>
+        <option value="2">Mon, 18-01-2010</option>
+        <option value="3">Mon, 01-18-2010</option>
+        <option value="4">18-01-2010</option>
+        <option value="5">01-18-2010</option>
+        <option value="6">18-01-10</option>
+        <option value="7">01-18-10</option>
+    </param>
+  </params>
+</root>
+

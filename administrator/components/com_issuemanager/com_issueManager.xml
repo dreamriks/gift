@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+        <name>Issue Manager</name>
+        <creationDate>January 2010</creationDate>
+        <author>Luis Martin</author>
+        <authorEmail>luismartinsev@gmail.com</authorEmail>
+        <authorUrl>http://www.fast-forward.es</authorUrl>
+        <copyright>Copyright (C) 2010</copyright>
+        <license>GNU/GPL</license>
+        <!--  The version string is recorded in the components table -->
+        <version>1.0.2</version>
+        <description>This component will help administrators and operators from the website to keep track in a more personal and
+        centralized way of any feedback sent by the customers by means of a "trouble tickets" system. </description>
+
+        <!-- Creation of the current administrator user as the superadministrator of IssuManager -->
+        <installfile>install.issuemanager.php</installfile>
+
+        <uninstallfile>uninstall.issuemanager.php</uninstallfile>
+
+        <!-- Install Database Section -->
+        <install>
+                <sql>
+                     <file driver="mysql" charset="utf8">install.mysql.sql</file>
+                </sql>
+        </install>
+
+        <!-- Uninstall Database Section -->
+        <uninstall>
+                <sql>
+                     <file driver="mysql" charset="utf8">uninstall.mysql.sql</file>
+                </sql>
+        </uninstall>
+
+        <!-- Site Main File Copy Section -->
+        <files>
+                <filename>index.html</filename>
+                <filename>controller.php</filename>
+                <filename>issuemanager.php</filename>
+                <folder>assets</folder>
+                <folder>models</folder>
+                <folder>scripts</folder>
+                <folder>styles</folder>
+                <folder>utils</folder>
+                <folder>views</folder>
+        </files>
+
+        <!-- Site Main Language File Copy Section -->
+        <languages folder="languages">
+                <language tag="en-GB">en-GB.com_issuemanager.ini</language>
+                <language tag="es-ES">es-ES.com_issuemanager.ini</language>
+        </languages>
+
+        <!-- Site Main Media File Copy Section -->
+        <!--<media destination="com_test">
+                <filename>image.png</filename>
+                <filename>flash.swf</filename>
+        </media>-->
+
+        <administration>
+
+                <!-- Administration Menu Section -->
+                <menu img="components/com_issuemanager/assets/icons/issuemanager_tiny_logo.png">Issue Manager</menu>
+                <submenu>
+                        <menu img="icon" task="display_tickets">Display Tickets</menu>
+                        <menu img="icon" task="display_operators">Display Operators</menu>
+                </submenu>
+
+                <!-- Administration Main File Copy Section -->
+                <!-- Note the folder attribute: This attribute describes the folder
+                        to copy FROM in the package to install therefore files copied
+                        in this section are copied from /admin/ in the package -->
+                <files folder="admin">
+                        <filename>index.html</filename>
+                        <filename>admin.issuemanager.php</filename>
+                        <filename>controller.php</filename>
+                        <filename>admin.issuemanager.html.php</filename>
+                        <filename>config.xml</filename>
+                        <filename>toolbar.issuemanager.php</filename>
+                        <filename>toolbar.issuemanager.html.php</filename>
+                        <folder>assets</folder>
+                        <folder>languages</folder>
+                        <folder>styles</folder>
+                        <folder>tables</folder>
+                        <folder>utils</folder>
+                </files>
+                <files folder="sql">
+                        <filename>install.mysql.sql</filename>
+                        <filename>uninstall.mysql.sql</filename>
+                </files>
+
+                <!-- Administration Language File Copy Section -->
+                <languages folder="admin">
+                        <language tag="en-GB">en-GB.com_issuemanager.ini</language>
+                        <language tag="es-ES">es-ES.com_issuemanager.ini</language>
+                </languages>
+
+                <!-- Administration Main Media File Copy Section -->
+                <!--<media folder="admin" destination="com_test">
+                        <filename>admin-image.png</filename>
+                        <filename>admin-flash.swf</filename>
+                </media>-->
+        </administration>
+</install>
+

@@ -1,0 +1,82 @@
+/* 
+    Document   : icons.css
+    Created on : 22-dic-2009, 21:57:13
+    Author     : Luis Martin
+    Description:
+        Styles defined for the backend
+*/
+
+
+.icon-32-display-tickets{
+    background: url('../assets/icons/display_tickets.png') no-repeat;
+}
+
+.icon-32-display-operators{
+    background: url('../assets/icons/display_operators2.png') no-repeat;
+}
+
+.icon-32-add-operator{
+    background: url('../assets/icons/add_operator.png') no-repeat;
+}
+
+.icon-32-close-ticket{
+    background: url('../assets/icons/close_ticket.png') no-repeat;
+}
+
+.icon-32-disable-operator{
+    background: url('../assets/icons/disable_operator.png') no-repeat;
+}
+
+.icon-32-enable-operator{
+    background: url('../assets/icons/enable_operator.png') no-repeat;
+}
+
+.icon-32-open-ticket{
+    background: url('../assets/icons/open_ticket.png') no-repeat;
+}
+
+.icon-32-ticket-resolved{
+    background: url('../assets/icons/ticket_ressolved.png') no-repeat;
+}
+
+.icon-32-ticket-unresolved{
+    background: url('../assets/icons/ticket_unressolved.png') no-repeat;
+}
+
+.icon-32-view-ticket{
+    background: url('../assets/icons/view_ticket.png') no-repeat;
+}
+
+.icon-48-logo {
+    background: url('../assets/icons/issuemanager_main.png') no-repeat;
+    padding-left: 60px !important;
+}
+
+.new_post {
+    display:block;
+    width:20px;
+    height:20px;
+    background:url('../assets/icons/alert_new_message.gif') no-repeat;
+}
+
+.resolved {
+    display:block;
+    width:20px;
+    height:20px;
+    background:url('../assets/icons/alert_ticket_resolved.gif') no-repeat;
+}
+
+.no_order {
+    display:block;
+    width:20px;
+    height:20px;
+    background:url('../../../images/publish_x.png') no-repeat;
+}
+
+.waiting_answer {
+    background-color:#FFF5DF !important;
+}
+
+.closed td {
+    background-color:#DDDDF0 !important;
+}
